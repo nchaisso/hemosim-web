@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Dropbox artifacts (should not appear here, but belt and suspenders)
+*conflicted copy*
+
+# Claude Code local machine settings (not shared)
+.claude/settings.local.json
+
+# Editor and scratch
+*.swp
+.vscode/
+node_modules/
