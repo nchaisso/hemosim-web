@@ -25,6 +25,8 @@ p{margin:0 0 14px}.lead{font-size:19px;color:#33383e}
 .callout{border:1px solid var(--line);border-left:5px solid #c9862b;background:#fdf6ea;border-radius:6px;padding:14px 18px;margin:18px 0}
 .callout .tag{font-size:12px;font-weight:700;color:#c9862b;text-transform:uppercase;letter-spacing:1px}
 .callout a.detour{font-weight:600}.newtab{font-size:12px;color:var(--muted)}
+.callout .abicon{width:34px;height:auto;vertical-align:-10px;margin-right:9px}
+.callout .busimg{display:block;max-width:420px;width:100%;height:auto;margin:14px auto 2px}
 .recap{font-size:14.5px;color:#3f4650;background:#eef2f7;border-left:4px solid var(--navy2);border-radius:0 6px 6px 0;padding:9px 15px;margin:0 0 22px}
 .recap b{color:var(--navy)}
 .bridge{background:#fff8ee;border:1px solid #e7d7b8;border-radius:8px;padding:13px 18px;margin:24px 0 2px}
@@ -42,6 +44,7 @@ table.grid td.rh{text-align:left;font-weight:700;background:#f4f6f9}
 .figframe b{color:var(--red)}.figframe .src{display:block;font-size:12px;color:#a98;margin-top:6px}
 .fig{margin:20px 0;background:#fff;border:1px solid var(--line);border-radius:8px;padding:12px;text-align:center}
 .fig img{max-width:520px;width:100%;height:auto;border-radius:4px}
+.fig img.w400{max-width:400px}
 .closing{margin-top:22px}
 .fig figcaption{font-size:13.5px;color:#4a4f56;margin-top:8px;text-align:left}
 .fig figcaption .src{display:block;color:#9aa0a7;font-style:italic;font-size:12px;margin-top:3px}

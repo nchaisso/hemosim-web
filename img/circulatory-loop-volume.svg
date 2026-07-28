@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 620" role="img"
+     aria-labelledby="loopTitle loopDesc" font-family="Helvetica, Arial, sans-serif">
+  <title id="loopTitle">Distribution of blood volume around the circulatory loop</title>
+  <desc id="loopDesc">The circulation drawn as a closed loop. Channel width is proportional to the share
+  of total blood volume each compartment holds, so the venous channel is drawn roughly four times the
+  width of the arterial channel. Systemic veins, venules and venous sinuses hold about 64 percent,
+  arteries about 13 percent, arterioles and capillaries about 7 percent, the heart about 7 percent, and
+  the pulmonary circulation about 9 percent.</desc>
+
+  <defs>
+    <style>
+      .lbl  { font-size: 13.5px; fill: #1a1d21; }
+      .pct  { font-weight: 700; }
+      .lead { stroke: #9aa0a7; stroke-width: 1.2; fill: none; }
+      .bed  { fill: none; stroke: #8e5a7a; stroke-width: 2.6; stroke-linecap: round; }
+    </style>
+  </defs>
+
+  <rect width="560" height="620" fill="#fff"/>
+
+  <!-- ============ the loop, drawn with width proportional to blood volume ============ -->
+
+  <!-- venous return: 64 percent, by far the widest channel -->
+  <path d="M 190 524 L 190 350 C 190 300 256 312 256 258"
+        fill="none" stroke="#4a6fa5" stroke-width="46" stroke-linecap="round"/>
+
+  <!-- arterial side: 13 percent -->
+  <path d="M 322 258 C 322 306 400 298 400 350 L 400 524"
+        fill="none" stroke="#c0392b" stroke-width="13" stroke-linecap="round"/>
+
+  <!-- pulmonary circulation: 9 percent, deoxygenated out, oxygenated back -->
+  <path d="M 256 148 C 228 88 256 44 289 44" fill="none" stroke="#4a6fa5" stroke-width="15" stroke-linecap="round"/>
+  <path d="M 289 44 C 322 44 350 88 322 148" fill="none" stroke="#c0392b" stroke-width="15" stroke-linecap="round"/>
+
+  <!-- three capillary beds in parallel: 7 percent -->
+  <g>
+    <g transform="translate(0,384)">
+      <path d="M 400 0 L 374 0" stroke="#c0392b" stroke-width="9" stroke-linecap="round"/>
+      <path d="M 246 0 L 214 0" stroke="#4a6fa5" stroke-width="24" stroke-linecap="round"/>
+      <path class="bed" d="M 374 0 C 344 -19 302 -21 288 -11 C 268 -3 258 -10 246 0"/>
+      <path class="bed" d="M 374 0 C 346 -7 320 -9 300 -4 C 272 3 258 -3 246 0"/>
+      <path class="bed" d="M 374 0 C 346 7 320 9 300 4 C 272 -3 258 3 246 0"/>
+      <path class="bed" d="M 374 0 C 344 19 302 21 288 11 C 268 3 258 10 246 0"/>
+    </g>
+    <g transform="translate(0,454)">
+      <path d="M 400 0 L 374 0" stroke="#c0392b" stroke-width="9" stroke-linecap="round"/>
+      <path d="M 246 0 L 214 0" stroke="#4a6fa5" stroke-width="24" stroke-linecap="round"/>
+      <path class="bed" d="M 374 0 C 344 -19 302 -21 288 -11 C 268 -3 258 -10 246 0"/>
+      <path class="bed" d="M 374 0 C 346 -7 320 -9 300 -4 C 272 3 258 -3 246 0"/>
+      <path class="bed" d="M 374 0 C 346 7 320 9 300 4 C 272 -3 258 3 246 0"/>
+      <path class="bed" d="M 374 0 C 344 19 302 21 288 11 C 268 3 258 10 246 0"/>
+    </g>
+    <g transform="translate(0,524)">
+      <path d="M 400 0 L 374 0" stroke="#c0392b" stroke-width="9" stroke-linecap="round"/>
+      <path d="M 246 0 L 214 0" stroke="#4a6fa5" stroke-width="24" stroke-linecap="round"/>
+      <path class="bed" d="M 374 0 C 344 -19 302 -21 288 -11 C 268 -3 258 -10 246 0"/>
+      <path class="bed" d="M 374 0 C 346 -7 320 -9 300 -4 C 272 3 258 -3 246 0"/>
+      <path class="bed" d="M 374 0 C 346 7 320 9 300 4 C 272 -3 258 3 246 0"/>
+      <path class="bed" d="M 374 0 C 344 19 302 21 288 11 C 268 3 258 10 246 0"/>
+    </g>
+  </g>
+
+  <!-- the heart: 7 percent, right side venous, left side arterial -->
+  <rect x="226" y="148" width="60" height="104" rx="13" fill="#4a6fa5"/>
+  <rect x="292" y="148" width="60" height="104" rx="13" fill="#c0392b"/>
+
+  <!-- ============ flow direction, so the loop reads as a circuit ============ -->
+  <g fill="#fff">
+    <polygon points="394,398 406,398 400,412"/>
+    <polygon points="394,478 406,478 400,492"/>
+    <polygon points="180,436 200,436 190,420"/>
+    <polygon points="180,506 200,506 190,490"/>
+    <polygon points="243,104 259,104 251,90"/>
+    <polygon points="320,96 336,96 328,110"/>
+  </g>
+
+  <!-- ============ labels ============ -->
+  <g class="lbl">
+    <text x="8" y="60">Pulmonary circulation <tspan class="pct">9%</tspan></text>
+    <path class="lead" d="M 150 66 C 190 66 220 60 246 56"/>
+
+    <text x="430" y="176">Heart <tspan class="pct">7%</tspan></text>
+    <path class="lead" d="M 428 172 C 400 172 372 180 356 190"/>
+
+    <text x="430" y="296">Arteries <tspan class="pct">13%</tspan></text>
+    <path class="lead" d="M 428 292 C 436 308 424 328 408 342"/>
+
+    <text x="430" y="446">Arterioles and</text>
+    <text x="430" y="462">capillaries <tspan class="pct">7%</tspan></text>
+    <path class="lead" d="M 428 452 C 412 452 396 453 380 454"/>
+
+    <text x="8" y="566">Veins, venules, and</text>
+    <text x="8" y="582">venous sinuses <tspan class="pct">64%</tspan></text>
+    <path class="lead" d="M 152 562 C 158 552 162 546 166 538"/>
+  </g>
+</svg>
