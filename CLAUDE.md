@@ -1,19 +1,12 @@
 # HemoSim web pilot
 
-## Standing facts
+Global standing facts (PHI wall, Dropbox as file backbone, no Google Drive,
+writing style, handoff convention) live in `~/.claude/CLAUDE.md`. This file
+covers only what is specific to this repo.
 
-Home base: Claude is the cockpit, Dropbox is the file backbone, Notion is notes
-and knowledge, GitHub is for versioned and code work.
+## Handoff
 
-PHI wall: this is a personal consumer Claude account with no BAA. Work OneDrive,
-work SharePoint, work email, and anything containing PHI stay walled off and are
-never connected. Never write PHI into this repo.
-
-Google Drive is not used. Do not read from or write to Google Drive. Everything
-was migrated to Dropbox under /Claude. If a task seems to require Drive, ask first.
-
-Writing style: never use em dashes or en dashes. Use commas, colons, periods, or
-parentheses. Graduate and professional level language. Direct and structured.
+This workstream's handoff is `_handoffs/hemosim.md`. Read it before starting.
 
 ## What this repo is
 
