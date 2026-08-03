@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="Physiologic insight">
+  <title>Physiologic insight</title>
+  <!-- Drawn for HemoSim, 2026-08-03. Marks the "Physiologic Insights" callout,
+       the counterpart to at-the-bedside-icon.png, and deliberately copies that
+       icon's solid two-tone glyph style rather than line art so the two read as
+       a family. A bulb says insight; the trace across it says the insight is a
+       physiologic one. The trace is one spike, not a full waveform, because
+       this renders at 34px and anything finer turns to mud. -->
+  <g fill="#3C4655">
+    <circle cx="24" cy="19" r="13"/>
+    <rect x="17.5" y="31" width="13" height="3.4" rx="1.7"/>
+    <rect x="17.5" y="36" width="13" height="3.4" rx="1.7"/>
+    <rect x="20.5" y="41" width="7" height="3.2" rx="1.6"/>
+  </g>
+  <!-- Lighter than the box accent (#16706B) on purpose: the trace sits on the
+       dark bulb and needs the contrast, the box border sits on near-white and
+       needs the opposite. Same hue, inverted lightness.
+       Do not write a CSS custom property name in this comment. A double hyphen
+       is illegal inside an XML comment and Chrome silently refuses to render
+       the whole file. That cost a debugging round on 2026-08-03. -->
+  <path d="M14 22h5l3.5-11L26 26l3.5-8H34" fill="none" stroke="#2CB3A6"
+        stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

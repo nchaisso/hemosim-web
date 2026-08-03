@@ -1,5 +1,10 @@
 
 :root{--navy:#1f3a5f;--navy2:#2b4d7a;--ink:#1a1d21;--muted:#5a626b;--bg:#faf9f7;--card:#fff;--line:#e4e1db;--red:#c0392b}
+/* Hemodynamic variable colours, sampled from Neal's own curve figure (N5 img01):
+   the cardiac function curve is #A8034F and the venous return curve is #00B0F0.
+   --filling-ink is the darkened form of #00B0F0 for text, which needs the
+   contrast; use --filling itself only for swatches, rules, and figure strokes. */
+:root{--flow:#A8034F;--filling:#00B0F0;--filling-ink:#0077A6;--tone:#C9862B;--insight:#16706B}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.6;font-size:17px}
 a{color:var(--navy2);text-decoration:none}a:hover{text-decoration:underline}
@@ -45,6 +50,20 @@ table.grid td.rh{text-align:left;font-weight:700;background:#f4f6f9}
 .fig{margin:20px 0;background:#fff;border:1px solid var(--line);border-radius:8px;padding:12px;text-align:center}
 .fig img{max-width:520px;width:100%;height:auto;border-radius:4px}
 .fig img.w400{max-width:400px}
+.fig img.w640{max-width:640px}
+.fig img.wfull{max-width:100%}
+.figpair{display:grid;grid-template-columns:1fr 1fr;gap:12px;align-items:center}
+.figpair img{max-width:100%;width:100%;height:auto;border-radius:4px}
+@media(max-width:640px){.figpair{grid-template-columns:1fr}}
+.callout.insight{border-left-color:var(--insight);background:#eef6f5}
+.callout.insight .tag{color:var(--insight);display:inline-block;vertical-align:middle;margin-right:9px}
+.callout .insighticon{width:34px;height:auto;vertical-align:-10px;margin-right:9px}
+/* These must out-specify `table.grid th`, which sets color:#fff. Selecting on
+   `th.v-flow` alone loses that tie and renders white on white. */
+table.grid th.v-flow,table.grid td.v-flow{color:var(--flow)}
+table.grid th.v-filling,table.grid td.v-filling{color:var(--filling-ink)}
+table.grid th.v-tone,table.grid td.v-tone{color:var(--tone)}
+table.grid th.v-flow,table.grid th.v-filling,table.grid th.v-tone{background:#fff;border-bottom:3px solid currentColor}
 .closing{margin-top:22px}
 .fig figcaption{font-size:13.5px;color:#4a4f56;margin-top:8px;text-align:left}
 .fig figcaption .src{display:block;color:#9aa0a7;font-style:italic;font-size:12px;margin-top:3px}
