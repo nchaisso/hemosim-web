@@ -32,20 +32,19 @@ stop at any level and still have a correct model.
 
 ## Pedagogical frame
 
-Every module works the Assess, hypothesize, test rubric. Present the physiologic
+Every module in the N1-N8 modules works the Assess, hypothesize, test rubric. Present the physiologic
 problem, force a prediction, then test it. Do not lead with the answer.
 
 ## Source of truth
 
 Physiology claims trace to primary sources. The named authorities for this
 curriculum are Jon Emile Kenny, Eduardo Kattan, Sheldon Magder, and Michael
-Pinsky. Never invent a citation, a value, or a waveform. If a claim cannot be
-sourced, flag it rather than asserting it.
+Pinsky. If a claim cannot be sourced, flag it rather than asserting it.
 
 ## Conventions
 
 Hand-written HTML and CSS. No build step and no framework. Keep pages
-self-contained and readable. Preserve existing class names and structure when
+self-contained and readable. Use venous return curve rather than Guyton curve and cardiac function curve rather than Starling curve. Use Pms rather than MSFP when possible. Avoid overuse of the word "honest" or using ";".   Preserve existing class names and structure when
 editing; do not refactor markup wholesale without asking.
 
 ## Working agreement
