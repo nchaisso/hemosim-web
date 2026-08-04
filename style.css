@@ -54,7 +54,10 @@ table.grid{border-collapse:collapse;width:100%;margin:16px 0;font-size:14px;back
 table.grid th,table.grid td{border:1px solid var(--line);padding:7px 9px;text-align:center}
 table.grid th{background:var(--navy);color:#fff;font-weight:600}
 table.grid td.rh{text-align:left;font-weight:700;background:#f4f6f9}
-.up{color:#b23b2e;font-weight:700}.dn{color:#1f6f43;font-weight:700}.eqm{color:var(--muted)}
+/* Shock-grid arrows. Neal asked for one colour rather than red for up and green
+   for down, 2026-08-04. Applied site-wide, not just N5, since the same grid
+   appears on N3, N6 and N8 and a per-page split would read as a mistake. */
+.up,.dn,.eqm{color:var(--ink);font-weight:700}
 .figframe{border:2px dashed #c8a0a0;border-radius:8px;background:#fdf7f6;color:#8a6b6b;padding:26px 16px;text-align:center;margin:20px 0;font-size:14px}
 .figframe b{color:var(--red)}.figframe .src{display:block;font-size:12px;color:#a98;margin-top:6px}
 .fig{margin:20px 0;background:#fff;border:1px solid var(--line);border-radius:8px;padding:12px;text-align:center}

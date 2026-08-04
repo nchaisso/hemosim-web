@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 396" width="700" height="396" role="img" aria-labelledby="wz-title wz-desc">
+  <title id="wz-title">The three West lung zones and where a PA catheter tip belongs</title>
+  <desc id="wz-desc">The lung divided into three zones by the relationship between alveolar, pulmonary arterial and pulmonary venous pressure. In Zone I at the apex, alveolar pressure exceeds arterial pressure and the capillary is held closed, so there is no flow. In Zone II, arterial pressure exceeds alveolar pressure but alveolar pressure still exceeds venous pressure, so the capillary is open at the arterial end and pinched at the venous end, and flow is set by the arterial minus alveolar difference. In Zone III in the dependent lung, both arterial and venous pressure exceed alveolar pressure, the capillary stays open throughout the cycle, and flow is set by the conventional arterial minus venous gradient. A pulmonary artery catheter tip must wedge in Zone III, where an uninterrupted column of blood connects the tip to the left atrium.</desc>
+
+  <!-- Drawn for HemoSim, 2026-08-04, for the Physiologic Insights box on N7.
+       No image generation is available, so this is hand-written SVG.
+       The three capillary shapes carry the whole argument: held shut, pinched
+       at the venous end, open throughout. Zone III is tinted and holds the
+       catheter because that is the teaching point.
+       Two traps, both hit while drawing this. A double hyphen is illegal inside
+       an XML comment, so never write a CSS custom property name here. And SVG
+       is XML, so only amp, lt, gt, quot and apos are predefined: a named HTML
+       entity such as the minus sign makes the whole file fail to parse. Use a
+       numeric reference instead. -->
+
+  <defs>
+    <marker id="wzArrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#8a9099"/>
+    </marker>
+  </defs>
+
+  <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+
+    <!-- gravity axis, apex to base -->
+    <path d="M22 56 V330" stroke="#8a9099" stroke-width="1.5" fill="none" marker-end="url(#wzArrow)"/>
+    <text x="14" y="46" font-size="11.5" fill="#6b7280">apex</text>
+    <text x="14" y="352" font-size="11.5" fill="#6b7280">base</text>
+
+    <!-- ================= ZONE I ================= -->
+    <rect x="44" y="26" width="252" height="102" rx="5" fill="#f6f7f9" stroke="#e0e3e8"/>
+    <circle cx="112" cy="64" r="25" fill="#eef2f7" stroke="#93a3b6" stroke-width="1.5"/>
+    <text x="112" y="69" font-size="12.5" fill="#5a6b80" text-anchor="middle">P<tspan font-size="9.5" dy="3">A</tspan></text>
+    <path d="M104 88 L112 96 L120 88" fill="none" stroke="#5a6b80" stroke-width="2" stroke-linecap="round"/>
+    <path d="M56 97 H284 V102 H56 Z" fill="#c0392b"/>
+    <text x="316" y="52" font-size="15.5" font-weight="700" fill="#1f3a5f">Zone I</text>
+    <text x="316" y="75" font-size="14" fill="#1a1d21">P<tspan font-size="10" dy="3">A</tspan><tspan dy="-3"> &gt; P</tspan><tspan font-size="10" dy="3">a</tspan><tspan dy="-3"> &gt; P</tspan><tspan font-size="10" dy="3">v</tspan></text>
+    <text x="316" y="97" font-size="13" fill="#5a626b">Alveolar pressure holds the</text>
+    <text x="316" y="114" font-size="13" fill="#5a626b">capillary shut. No flow.</text>
+
+    <!-- ================= ZONE II ================= -->
+    <rect x="44" y="136" width="252" height="102" rx="5" fill="#f6f7f9" stroke="#e0e3e8"/>
+    <circle cx="112" cy="174" r="25" fill="#eef2f7" stroke="#93a3b6" stroke-width="1.5"/>
+    <text x="112" y="179" font-size="12.5" fill="#5a6b80" text-anchor="middle">P<tspan font-size="9.5" dy="3">A</tspan></text>
+    <path d="M56 198 H140 L284 208 V213 H56 Z" fill="#c0392b"/>
+    <text x="316" y="162" font-size="15.5" font-weight="700" fill="#1f3a5f">Zone II</text>
+    <text x="316" y="185" font-size="14" fill="#1a1d21">P<tspan font-size="10" dy="3">a</tspan><tspan dy="-3"> &gt; P</tspan><tspan font-size="10" dy="3">A</tspan><tspan dy="-3"> &gt; P</tspan><tspan font-size="10" dy="3">v</tspan></text>
+    <text x="316" y="207" font-size="13" fill="#5a626b">Pinched at the venous end.</text>
+    <text x="316" y="224" font-size="13" fill="#5a626b">A vascular waterfall.</text>
+
+    <!-- ================= ZONE III ================= -->
+    <rect x="44" y="246" width="252" height="102" rx="5" fill="#e6f2f0" stroke="#16706B" stroke-width="2"/>
+    <circle cx="112" cy="284" r="25" fill="#eef2f7" stroke="#93a3b6" stroke-width="1.5"/>
+    <text x="112" y="289" font-size="12.5" fill="#5a6b80" text-anchor="middle">P<tspan font-size="9.5" dy="3">A</tspan></text>
+    <path d="M56 308 H284 V324 H56 Z" fill="#c0392b"/>
+    <path d="M284 288 C 240 288, 205 296, 168 314" fill="none" stroke="#16706B" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="168" cy="314" r="6.5" fill="#16706B"/>
+    <text x="316" y="272" font-size="15.5" font-weight="700" fill="#16706B">Zone III</text>
+    <text x="316" y="295" font-size="14" fill="#1a1d21">P<tspan font-size="10" dy="3">a</tspan><tspan dy="-3"> &gt; P</tspan><tspan font-size="10" dy="3">v</tspan><tspan dy="-3"> &gt; P</tspan><tspan font-size="10" dy="3">A</tspan></text>
+    <text x="316" y="317" font-size="13" fill="#5a626b">Open throughout the cycle.</text>
+    <text x="316" y="334" font-size="13" fill="#5a626b">Flow set by P<tspan font-size="10" dy="3">a</tspan><tspan dy="-3"> &#8722; P</tspan><tspan font-size="10" dy="3">v</tspan><tspan dy="-3">.</tspan></text>
+
+    <!-- the teaching point -->
+    <text x="44" y="374" font-size="13.5" font-weight="700" fill="#16706B">Wedge in Zone III. Only there does an uninterrupted column of blood</text>
+    <text x="44" y="391" font-size="13.5" font-weight="700" fill="#16706B">connect the catheter tip to the left atrium.</text>
+  </g>
+</svg>
