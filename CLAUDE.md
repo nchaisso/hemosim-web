@@ -47,6 +47,16 @@ Hand-written HTML and CSS. No build step and no framework. Keep pages
 self-contained and readable. Use venous return curve rather than Guyton curve and cardiac function curve rather than Starling curve. Use Pms rather than MSFP when possible. Avoid overuse of the word "honest" or using ";".   Preserve existing class names and structure when
 editing; do not refactor markup wholesale without asking.
 
+Use RAP throughout, never Pra or PRA, including inside figure captions.
+
+**No page carries an attribution footer.** The italic `div.attrib` line that used
+to sit under the reference list ("Figures imported from the source decks...") is
+removed from every page as of 2026-08-04 and must not be reintroduced on new
+ones. Per-figure attribution still belongs in the figure's own caption, which is
+where the sourcing rules in the content repo's file 02 apply. The `.attrib` rule
+is left in style.css unused rather than deleted, so an old page pasted in does
+not render unstyled.
+
 ## Working agreement
 
 Commit in small, described increments. Before any change that touches more than
