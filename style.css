@@ -1,10 +1,20 @@
 
 :root{--navy:#1f3a5f;--navy2:#2b4d7a;--ink:#1a1d21;--muted:#5a626b;--bg:#faf9f7;--card:#fff;--line:#e4e1db;--red:#c0392b}
-/* Hemodynamic variable colours, sampled from Neal's own curve figure (N5 img01):
-   the cardiac function curve is #A8034F and the venous return curve is #00B0F0.
-   --filling-ink is the darkened form of #00B0F0 for text, which needs the
-   contrast; use --filling itself only for swatches, rules, and figure strokes. */
-:root{--flow:#A8034F;--filling:#00B0F0;--filling-ink:#0077A6;--tone:#C9862B;--insight:#16706B}
+/* Hemodynamic variable colours. These are not a design choice: they are read
+   out of the cell shading Neal applied himself in the N5 edit doc, which is the
+   table he points at when he writes "the same colors I used for parameters in
+   N5". One colour per variable, not per role.
+   Each has an -ink pair. The raw fill is faithful to his document and is what
+   the underline rule uses; most of them fail contrast as text on white, so the
+   -ink form carries the same hue darkened enough to read. Never set text in a
+   raw fill; never set a rule in an -ink. */
+:root{--v-map:#EE0000;--v-map-ink:#C00000;
+      --v-co:#FFC000;--v-co-ink:#8F6400;
+      --v-rap:#00B050;--v-rap-ink:#00753A;
+      --v-papm:#000000;--v-papm-ink:#000000;
+      --v-lap:#F058CD;--v-lap-ink:#B01E90;
+      --v-svr:#00B0F0;--v-svr-ink:#006B96;
+      --insight:#16706B}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.6;font-size:17px}
 a{color:var(--navy2);text-decoration:none}a:hover{text-decoration:underline}
@@ -58,12 +68,23 @@ table.grid td.rh{text-align:left;font-weight:700;background:#f4f6f9}
 .callout.insight{border-left-color:var(--insight);background:#eef6f5}
 .callout.insight .tag{color:var(--insight);display:inline-block;vertical-align:middle;margin-right:9px}
 .callout .insighticon{width:34px;height:auto;vertical-align:-10px;margin-right:9px}
-/* These must out-specify `table.grid th`, which sets color:#fff. Selecting on
-   `th.v-flow` alone loses that tie and renders white on white. */
-table.grid th.v-flow,table.grid td.v-flow{color:var(--flow)}
-table.grid th.v-filling,table.grid td.v-filling{color:var(--filling-ink)}
-table.grid th.v-tone,table.grid td.v-tone{color:var(--tone)}
-table.grid th.v-flow,table.grid th.v-filling,table.grid th.v-tone{background:#fff;border-bottom:3px solid currentColor}
+/* One class per hemodynamic variable, matching Neal's own shading. Text takes
+   the -ink form, the underline rule takes the raw fill.
+   These must out-specify `table.grid th`, which sets color:#fff. Selecting on
+   `th.v-co` alone loses that tie and renders white on white. */
+table.grid th.v-map,table.grid td.v-map{color:var(--v-map-ink)}
+table.grid th.v-co,table.grid td.v-co{color:var(--v-co-ink)}
+table.grid th.v-rap,table.grid td.v-rap{color:var(--v-rap-ink)}
+table.grid th.v-papm,table.grid td.v-papm{color:var(--v-papm-ink)}
+table.grid th.v-lap,table.grid td.v-lap{color:var(--v-lap-ink)}
+table.grid th.v-svr,table.grid td.v-svr{color:var(--v-svr-ink)}
+table.grid th.v-map,table.grid th.v-co,table.grid th.v-rap,table.grid th.v-papm,table.grid th.v-lap,table.grid th.v-svr{background:#fff;border-bottom:3px solid}
+table.grid th.v-map{border-bottom-color:var(--v-map)}
+table.grid th.v-co{border-bottom-color:var(--v-co)}
+table.grid th.v-rap{border-bottom-color:var(--v-rap)}
+table.grid th.v-papm{border-bottom-color:var(--v-papm)}
+table.grid th.v-lap{border-bottom-color:var(--v-lap)}
+table.grid th.v-svr{border-bottom-color:var(--v-svr)}
 .closing{margin-top:22px}
 .fig figcaption{font-size:13.5px;color:#4a4f56;margin-top:8px;text-align:left}
 .fig figcaption .src{display:block;color:#9aa0a7;font-style:italic;font-size:12px;margin-top:3px}
