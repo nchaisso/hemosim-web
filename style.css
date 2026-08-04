@@ -85,6 +85,15 @@ table.grid th.v-rap{border-bottom-color:var(--v-rap)}
 table.grid th.v-papm{border-bottom-color:var(--v-papm)}
 table.grid th.v-lap{border-bottom-color:var(--v-lap)}
 table.grid th.v-svr{border-bottom-color:var(--v-svr)}
+/* Subheads. Added 2026-08-03 with N7-T2's Troubleshooting section, the first
+   use of h3 on the site. Sits deliberately below h2, which carries the red rule. */
+main h3{font-size:17px;font-weight:700;color:var(--navy);margin:22px 0 4px}
+/* Body lists. Added 2026-08-03 when N7-T1's complication list became the first
+   prose <ul> on the site and fell through to browser defaults (40px indent,
+   tighter leading than the surrounding paragraphs). Scoped to main so the
+   stepper, pager and refs lists keep their own rules. */
+main ul,main ol:not(.refs ol){margin:12px 0;padding-left:22px}
+main li{margin-bottom:5px}
 .closing{margin-top:22px}
 .fig figcaption{font-size:13.5px;color:#4a4f56;margin-top:8px;text-align:left}
 .fig figcaption .src{display:block;color:#9aa0a7;font-style:italic;font-size:12px;margin-top:3px}
