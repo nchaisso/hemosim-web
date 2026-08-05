@@ -35,6 +35,12 @@ stop at any level and still have a correct model.
 Every module in the N1-N8 modules works the Assess, hypothesize, test rubric. Present the physiologic
 problem, force a prediction, then test it. Do not lead with the answer.
 
+The Informed (I) and Expert (E) pathways do not. They are hemodynamic physiology
+rather than the steps of shock assessment, they assume the Novice pathway has
+been read, and they are pitched at a respected critical care physician: detailed,
+concrete, thorough in preference to brief. Full standard in the content repo,
+`_Claude Context/02`, under "Depth and voice by tier".
+
 ## Source of truth
 
 Physiology claims trace to primary sources. The named authorities for this
