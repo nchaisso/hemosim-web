@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 396" width="700" height="396" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+  <defs>
+    <marker id="ax" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#5a626b"/></marker>
+  </defs>
+  <rect width="700" height="396" fill="#ffffff"/>
+
+  <!-- axes -->
+  <line x1="90" y1="330" x2="672" y2="330" stroke="#5a626b" stroke-width="1.4" marker-end="url(#ax)"/>
+  <line x1="90" y1="330" x2="90" y2="42" stroke="#5a626b" stroke-width="1.4" marker-end="url(#ax)"/>
+  <text x="672" y="352" font-size="12" fill="#3f4650" text-anchor="end">volume held in the venous compartment</text>
+  <text x="0" y="0" font-size="12" fill="#3f4650" transform="translate(78,190) rotate(-90)" text-anchor="middle">venous distending pressure</text>
+
+  <!-- operating volume -->
+  <line x1="470" y1="330" x2="470" y2="95" stroke="#9aa3af" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="462" y="88" font-size="11.5" fill="#5a626b" text-anchor="end">total venous volume, unchanged</text>
+
+  <!-- baseline relationship -->
+  <line x1="250" y1="330" x2="560" y2="180" stroke="#1f3a5f" stroke-width="2.4"/>
+  <circle cx="250" cy="330" r="4.5" fill="#1f3a5f"/>
+  <circle cx="470" cy="223" r="5" fill="#1f3a5f"/>
+  <text x="566" y="184" font-size="11.5" font-weight="700" fill="#1f3a5f">baseline</text>
+
+  <!-- unstressed volume recruited: intercept shifts left, same slope -->
+  <line x1="150" y1="330" x2="560" y2="132" stroke="#00753A" stroke-width="2.4"/>
+  <circle cx="150" cy="330" r="4.5" fill="#00753A"/>
+  <circle cx="470" cy="175" r="5" fill="#00753A"/>
+  <text x="566" y="136" font-size="11.5" font-weight="700" fill="#00753A">venoconstriction</text>
+
+  <!-- compliance falls: same intercept, steeper slope -->
+  <line x1="250" y1="330" x2="500" y2="70" stroke="#C00000" stroke-width="2.4" stroke-dasharray="8 4"/>
+  <circle cx="470" cy="101" r="5" fill="#C00000"/>
+  <text x="506" y="74" font-size="11.5" font-weight="700" fill="#C00000">stiffer venous wall</text>
+
+  <!-- intercept labels -->
+  <text x="250" y="348" font-size="11" fill="#1f3a5f" text-anchor="middle">V<tspan font-size="9" dy="3">0</tspan></text>
+  <text x="150" y="348" font-size="11" fill="#00753A" text-anchor="middle">V<tspan font-size="9" dy="3">0</tspan><tspan dy="-3">'</tspan></text>
+
+  <!-- brackets -->
+  <line x1="92" y1="366" x2="248" y2="366" stroke="#5a626b" stroke-width="1"/>
+  <line x1="92" y1="362" x2="92" y2="370" stroke="#5a626b" stroke-width="1"/>
+  <line x1="248" y1="362" x2="248" y2="370" stroke="#5a626b" stroke-width="1"/>
+  <text x="170" y="383" font-size="11" fill="#5a626b" text-anchor="middle">unstressed volume</text>
+
+  <line x1="252" y1="366" x2="468" y2="366" stroke="#5a626b" stroke-width="1"/>
+  <line x1="252" y1="362" x2="252" y2="370" stroke="#5a626b" stroke-width="1"/>
+  <line x1="468" y1="362" x2="468" y2="370" stroke="#5a626b" stroke-width="1"/>
+  <text x="360" y="383" font-size="11" fill="#5a626b" text-anchor="middle">stressed volume</text>
+
+  <!-- annotation: slope is compliance -->
+  <text x="336" y="300" font-size="11" fill="#1f3a5f" transform="rotate(-26 336 300)">slope = 1 &#247; compliance</text>
+
+</svg>

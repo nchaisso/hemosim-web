@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 480" width="880" height="480" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+  <rect width="880" height="480" fill="#faf9f7"/>
+  <!-- plot frame: x 110..800, y 40..350 ; pressure 0 at y=350, 90 at y=48 -->
+  <!-- y axis -->
+  <line x1="110" y1="36" x2="110" y2="352" stroke="#5a626b" stroke-width="1.6"/>
+  <line x1="110" y1="352" x2="806" y2="352" stroke="#5a626b" stroke-width="1.6"/>
+  <text x="46" y="30" font-size="13" font-weight="700" fill="#1a1d21">Pressure</text>
+  <text x="46" y="46" font-size="12" fill="#5a626b">(mmHg)</text>
+  <g font-size="12" fill="#5a626b" text-anchor="end">
+    <text x="102" y="57">90</text><text x="102" y="123">70</text><text x="102" y="190">50</text><text x="102" y="257">30</text><text x="102" y="323">10</text><text x="102" y="357">0</text>
+  </g>
+  <g stroke="#e4e1db" stroke-width="1">
+    <line x1="110" y1="53" x2="806" y2="53"/><line x1="110" y1="119" x2="806" y2="119"/>
+    <line x1="110" y1="186" x2="806" y2="186"/><line x1="110" y1="253" x2="806" y2="253"/>
+    <line x1="110" y1="319" x2="806" y2="319"/>
+  </g>
+
+  <!-- position labels -->
+  <g font-size="12" fill="#5a626b" text-anchor="middle">
+    <text x="175" y="374">aorta</text>
+    <text x="290" y="374">large arteries</text>
+    <text x="410" y="374">arterioles</text>
+    <text x="530" y="374">capillaries</text>
+    <text x="645" y="374">venules, veins</text>
+    <text x="770" y="374">right atrium</text>
+  </g>
+
+  <!-- ARTERIAL LIMB: MAP 80 (y=86) flat to x=300, falls to Pcc 35 (y=236) at x=470 -->
+  <path d="M130 86 L300 92 L470 236" fill="none" stroke="#c0392b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="130" cy="86" r="5.5" fill="#c0392b"/>
+  <circle cx="470" cy="236" r="6" fill="#c0392b"/>
+  <text x="146" y="76" font-size="14" font-weight="700" fill="#c0392b">MAP 80</text>
+  <text x="482" y="232" font-size="14" font-weight="700" fill="#c0392b">P<tspan font-size="10" dy="3">cc</tspan><tspan dy="-3"> 35</tspan></text>
+
+  <!-- WATERFALL: dotted drop from Pcc 35 (y=236) to Pms 15 (y=303) -->
+  <path d="M470 244 C 484 268, 500 284, 522 301" fill="none" stroke="#8e3a5e" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <path d="M478 258 L508 292" fill="none" stroke="none"/>
+  <g>
+    <path d="M448 244 L448 303" stroke="#8e3a5e" stroke-width="1.4"/>
+    <path d="M443 244 L453 244 M443 303 L453 303" stroke="#8e3a5e" stroke-width="1.4"/>
+    <text x="436" y="278" text-anchor="end" font-size="13" font-weight="700" fill="#8e3a5e">vascular</text>
+    <text x="436" y="294" text-anchor="end" font-size="13" font-weight="700" fill="#8e3a5e">waterfall 20</text>
+  </g>
+
+  <!-- VENOUS LIMB: Pms 15 (y=303) at x=522 to RAP 5 (y=336) at x=790 -->
+  <path d="M522 303 L660 316 L790 336" fill="none" stroke="#2b4d7a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="522" cy="303" r="6" fill="#2b4d7a"/>
+  <circle cx="790" cy="336" r="5.5" fill="#2b4d7a"/>
+  <text x="534" y="296" font-size="14" font-weight="700" fill="#2b4d7a">P<tspan font-size="10" dy="3">ms</tspan><tspan dy="-3"> 15</tspan></text>
+  <text x="782" y="326" text-anchor="end" font-size="14" font-weight="700" fill="#2b4d7a">RAP 5</text>
+
+  <!-- TPP bracket, left of the arterial limb -->
+  <g>
+    <path d="M152 86 L152 236" stroke="#1f3a5f" stroke-width="1.6"/>
+    <path d="M147 86 L157 86 M147 236 L157 236" stroke="#1f3a5f" stroke-width="1.6"/>
+    <rect x="164" y="140" width="176" height="44" rx="5" fill="#fff" stroke="#e4e1db"/>
+    <text x="176" y="159" font-size="13.5" font-weight="700" fill="#1f3a5f">Tissue perfusion pressure</text>
+    <text x="176" y="176" font-size="13" fill="#1a1d21">MAP &#8722; P<tspan font-size="10" dy="3">cc</tspan><tspan dy="-3"> = 45 mmHg</tspan></text>
+  </g>
+
+  <!-- venous gradient bracket -->
+  <g>
+    <path d="M700 303 L700 336" stroke="#1f3a5f" stroke-width="1.6"/>
+    <path d="M695 303 L705 303 M695 336 L705 336" stroke="#1f3a5f" stroke-width="1.6"/>
+    <text x="712" y="316" font-size="13" fill="#1f3a5f">P<tspan font-size="10" dy="3">ms</tspan><tspan dy="-3"> &#8722; RAP = 10</tspan></text>
+  </g>
+
+  <!-- circuit labels -->
+  <g font-size="13">
+    <rect x="130" y="396" width="330" height="30" rx="5" fill="#fff" stroke="#c0392b" stroke-opacity="0.45"/>
+    <text x="144" y="416" fill="#1a1d21">Arterial circuit &#160;&#160;R<tspan font-size="10" dy="3">a</tspan><tspan dy="-3"> = (MAP &#8722; P</tspan><tspan font-size="10" dy="3">cc</tspan><tspan dy="-3">) &#247; CO</tspan></text>
+    <rect x="480" y="396" width="326" height="30" rx="5" fill="#fff" stroke="#2b4d7a" stroke-opacity="0.45"/>
+    <text x="494" y="416" fill="#1a1d21">Venous circuit &#160;&#160;R<tspan font-size="10" dy="3">vr</tspan><tspan dy="-3"> = (P</tspan><tspan font-size="10" dy="3">ms</tspan><tspan dy="-3"> &#8722; RAP) &#247; VR</tspan></text>
+  </g>
+  <text x="450" y="454" text-anchor="middle" font-size="13.5" fill="#1a1d21">MAP &#8722; RAP = 75 mmHg spans both circuits and the discontinuity between them,</text>
+  <text x="450" y="472" text-anchor="middle" font-size="13.5" fill="#1a1d21">so it is not the driving pressure across any single resistance.</text>
+</svg>

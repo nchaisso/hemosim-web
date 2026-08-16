@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 396" width="660" height="396" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+  <rect x="0" y="0" width="660" height="396" fill="#ffffff"/>
+
+  <line x1="70" y1="42" x2="70" y2="316" stroke="#8d949c" stroke-width="1.2"/>
+  <line x1="66" y1="310" x2="70" y2="310" stroke="#8d949c" stroke-width="1"/><text x="60" y="314" font-size="10.5" fill="#5a626b" text-anchor="end">0</text>
+  <line x1="66" y1="245" x2="70" y2="245" stroke="#8d949c" stroke-width="1"/><text x="60" y="249" font-size="10.5" fill="#5a626b" text-anchor="end">5</text>
+  <line x1="66" y1="180" x2="70" y2="180" stroke="#8d949c" stroke-width="1"/><text x="60" y="184" font-size="10.5" fill="#5a626b" text-anchor="end">10</text>
+  <line x1="66" y1="115" x2="70" y2="115" stroke="#8d949c" stroke-width="1"/><text x="60" y="119" font-size="10.5" fill="#5a626b" text-anchor="end">15</text>
+  <line x1="66" y1="50" x2="70" y2="50" stroke="#8d949c" stroke-width="1"/><text x="60" y="54" font-size="10.5" fill="#5a626b" text-anchor="end">20</text>
+  <text x="26" y="180" font-size="11.5" fill="#5a626b" transform="rotate(-90 26 180)" text-anchor="middle">mmHg, referenced to atmosphere</text>
+  <line x1="70" y1="310" x2="620" y2="310" stroke="#8d949c" stroke-width="1.2"/>
+
+  <line x1="70" y1="76" x2="620" y2="76" stroke="#1f3a5f" stroke-width="1.3" stroke-dasharray="6 4" opacity="0.8"/>
+  <text x="620" y="66" font-size="12" font-weight="700" fill="#1f3a5f" text-anchor="end">Measured central venous pressure 18 mmHg, both patients</text>
+
+  <rect x="150" y="180" width="120" height="130" fill="#cfd5dc" stroke="#8d949c" stroke-width="1.2"/>
+  <rect x="150" y="76" width="120" height="104" fill="#00B050" fill-opacity="0.22" stroke="#00753A" stroke-width="1.6"/>
+  <text x="210" y="250" font-size="12" font-weight="700" fill="#4a5057" text-anchor="middle">Pleural 10</text>
+  <text x="210" y="134" font-size="13" font-weight="700" fill="#00753A" text-anchor="middle">Transmural 8</text>
+
+  <rect x="420" y="284" width="120" height="26" fill="#cfd5dc" stroke="#8d949c" stroke-width="1.2"/>
+  <rect x="420" y="76" width="120" height="208" fill="#00B050" fill-opacity="0.22" stroke="#00753A" stroke-width="1.6"/>
+  <text x="558" y="301" font-size="12" font-weight="700" fill="#4a5057" text-anchor="start">Pleural 2</text>
+  <text x="480" y="186" font-size="13" font-weight="700" fill="#00753A" text-anchor="middle">Transmural 16</text>
+
+  <text x="150" y="336" font-size="13" font-weight="700" fill="#1f3a5f">Patient A</text>
+  <text x="150" y="353" font-size="12" fill="#3f4650">Obese, ARDS, PEEP 16, esophageal</text>
+  <text x="150" y="369" font-size="12" fill="#3f4650">pressure 14 cmH<tspan font-size="9" dy="3">2</tspan><tspan dy="-3">O at end expiration.</tspan></text>
+  <text x="150" y="387" font-size="12" font-weight="700" fill="#00753A">Right ventricle is underfilled.</text>
+
+  <text x="420" y="336" font-size="13" font-weight="700" fill="#1f3a5f">Patient B</text>
+  <text x="420" y="353" font-size="12" fill="#3f4650">Spontaneously breathing, chronic right</text>
+  <text x="420" y="369" font-size="12" fill="#3f4650">ventricular failure, no positive pressure.</text>
+  <text x="420" y="387" font-size="12" font-weight="700" fill="#C00000">Right ventricle is overfilled.</text>
+</svg>

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 458" width="700" height="458" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+  <defs>
+    <marker id="out" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0 0 L7 3 L0 6 z" fill="#c0392b"/></marker>
+    <marker id="inw" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0 0 L7 3 L0 6 z" fill="#1f3a5f"/></marker>
+    <marker id="lym" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0 0 L7 3 L0 6 z" fill="#16706B"/></marker>
+  </defs>
+  <rect width="700" height="458" fill="#ffffff"/>
+
+  <!-- ================= PANEL A ================= -->
+  <text x="20" y="22" font-size="14" font-weight="700" fill="#1f3a5f">A. The classical reading of Starling's principle</text>
+  <text x="20" y="40" font-size="11.5" fill="#5a626b">Filtration at the arteriolar end, reabsorption at the venular end, and the two roughly balance.</text>
+
+  <text x="118" y="60" font-size="11" fill="#c0392b" font-weight="700">filtration</text>
+  <text x="452" y="60" font-size="11" fill="#1f3a5f" font-weight="700">reabsorption</text>
+
+  <line x1="120" y1="98" x2="120" y2="68" stroke="#c0392b" stroke-width="1.8" marker-end="url(#out)"/>
+  <line x1="175" y1="98" x2="175" y2="72" stroke="#c0392b" stroke-width="1.8" marker-end="url(#out)"/>
+  <line x1="230" y1="98" x2="230" y2="76" stroke="#c0392b" stroke-width="1.8" marker-end="url(#out)"/>
+  <line x1="285" y1="98" x2="285" y2="82" stroke="#c0392b" stroke-width="1.8" marker-end="url(#out)"/>
+
+  <line x1="420" y1="70" x2="420" y2="96" stroke="#1f3a5f" stroke-width="1.8" marker-end="url(#inw)"/>
+  <line x1="475" y1="72" x2="475" y2="96" stroke="#1f3a5f" stroke-width="1.8" marker-end="url(#inw)"/>
+  <line x1="530" y1="76" x2="530" y2="96" stroke="#1f3a5f" stroke-width="1.8" marker-end="url(#inw)"/>
+  <line x1="580" y1="80" x2="580" y2="96" stroke="#1f3a5f" stroke-width="1.8" marker-end="url(#inw)"/>
+
+  <rect x="70" y="98" width="540" height="42" fill="#fdeeec" stroke="#c0392b" stroke-width="1.6"/>
+  <text x="36" y="118" font-size="11.5" fill="#5a626b" text-anchor="middle">from</text>
+  <text x="36" y="132" font-size="11.5" fill="#5a626b" text-anchor="middle">arteriole</text>
+  <text x="650" y="118" font-size="11.5" fill="#5a626b" text-anchor="middle">to</text>
+  <text x="650" y="132" font-size="11.5" fill="#5a626b" text-anchor="middle">venule</text>
+
+  <!-- pressure profile -->
+  <text x="70" y="162" font-size="11.5" fill="#c0392b">capillary hydrostatic pressure, falling along the vessel</text>
+  <line x1="70" y1="230" x2="610" y2="230" stroke="#e4e1db" stroke-width="1"/>
+  <path d="M70 172 L610 226" stroke="#c0392b" stroke-width="2.2" fill="none"/>
+  <line x1="70" y1="204" x2="610" y2="204" stroke="#1f3a5f" stroke-width="2.2" stroke-dasharray="7 4"/>
+  <text x="70" y="248" font-size="11.5" fill="#1f3a5f">plasma colloid osmotic pressure, roughly constant</text>
+  <circle cx="390" cy="204" r="5" fill="none" stroke="#1a1d21" stroke-width="1.6"/>
+  <line x1="390" y1="199" x2="390" y2="186" stroke="#1a1d21" stroke-width="1"/>
+  <text x="398" y="184" font-size="11" font-weight="700" fill="#1a1d21">predicted reversal point</text>
+
+  <line x1="20" y1="266" x2="680" y2="266" stroke="#e4e1db" stroke-width="1"/>
+
+  <!-- ================= PANEL B ================= -->
+  <text x="20" y="292" font-size="14" font-weight="700" fill="#1f3a5f">B. The revised, glycocalyx model</text>
+  <text x="20" y="310" font-size="11.5" fill="#5a626b">Low-grade filtration along the whole length, no steady-state reabsorption, and lymph as the return route.</text>
+
+  <line x1="120" y1="352" x2="120" y2="330" stroke="#c0392b" stroke-width="1.6" marker-end="url(#out)"/>
+  <line x1="215" y1="352" x2="215" y2="332" stroke="#c0392b" stroke-width="1.6" marker-end="url(#out)"/>
+  <line x1="310" y1="352" x2="310" y2="334" stroke="#c0392b" stroke-width="1.6" marker-end="url(#out)"/>
+  <line x1="405" y1="352" x2="405" y2="336" stroke="#c0392b" stroke-width="1.6" marker-end="url(#out)"/>
+  <line x1="500" y1="352" x2="500" y2="338" stroke="#c0392b" stroke-width="1.6" marker-end="url(#out)"/>
+  <line x1="575" y1="352" x2="575" y2="340" stroke="#c0392b" stroke-width="1.6" marker-end="url(#out)"/>
+
+  <rect x="70" y="352" width="540" height="42" fill="#fdeeec" stroke="#c0392b" stroke-width="1.6"/>
+  <rect x="70" y="352" width="540" height="8" fill="#9ecfcb"/>
+  <rect x="70" y="386" width="540" height="8" fill="#9ecfcb"/>
+  <text x="36" y="372" font-size="11.5" fill="#5a626b" text-anchor="middle">from</text>
+  <text x="36" y="386" font-size="11.5" fill="#5a626b" text-anchor="middle">arteriole</text>
+  <text x="650" y="372" font-size="11.5" fill="#5a626b" text-anchor="middle">to</text>
+  <text x="650" y="386" font-size="11.5" fill="#5a626b" text-anchor="middle">venule</text>
+
+  <line x1="150" y1="394" x2="150" y2="407" stroke="#16706B" stroke-width="1.2"/>
+  <text x="158" y="411" font-size="11" font-weight="700" fill="#16706B">endothelial glycocalyx, the semipermeable layer</text>
+
+  <rect x="70" y="422" width="380" height="28" rx="4" fill="#f4f6f9" stroke="#e4e1db"/>
+  <text x="86" y="441" font-size="11.5" fill="#3f4650">interstitium</text>
+  <line x1="450" y1="436" x2="512" y2="436" stroke="#16706B" stroke-width="2.4" marker-end="url(#lym)"/>
+  <rect x="518" y="422" width="142" height="28" rx="4" fill="#eef6f5" stroke="#16706B"/>
+  <text x="589" y="441" font-size="11.5" font-weight="700" fill="#16706B" text-anchor="middle">lymphatics</text>
+</svg>

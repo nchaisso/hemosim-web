@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" width="720" height="500" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+  <rect x="0" y="0" width="720" height="500" fill="#ffffff"/>
+
+  <!-- axes -->
+  <line x1="100" y1="70" x2="100" y2="352" stroke="#1a1d21" stroke-width="1.6"/>
+  <line x1="100" y1="352" x2="686" y2="352" stroke="#1a1d21" stroke-width="1.6"/>
+  <text x="34" y="215" font-size="13" fill="#1a1d21" transform="rotate(-90 34 215)" text-anchor="middle">Organ blood flow</text>
+  <text x="393" y="398" font-size="13" fill="#1a1d21" text-anchor="middle">Mean arterial pressure (mmHg)</text>
+
+  <!-- x ticks -->
+  <g font-size="11.5" fill="#5a626b" text-anchor="middle">
+    <line x1="240" y1="352" x2="240" y2="358" stroke="#5a626b"/><text x="240" y="373">60</text>
+    <line x1="345" y1="352" x2="345" y2="358" stroke="#5a626b"/><text x="345" y="373">90</text>
+    <line x1="450" y1="352" x2="450" y2="358" stroke="#5a626b"/><text x="450" y="373">120</text>
+    <line x1="555" y1="352" x2="555" y2="358" stroke="#5a626b"/><text x="555" y="373">150</text>
+    <line x1="660" y1="352" x2="660" y2="358" stroke="#5a626b"/><text x="660" y="373">180</text>
+  </g>
+
+  <!-- MAP 65 marker -->
+  <line x1="257" y1="96" x2="257" y2="352" stroke="#5a626b" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <text x="257" y="88" font-size="12.5" font-weight="700" fill="#3f4650" text-anchor="middle">a MAP of 65</text>
+
+  <!-- impaired, pressure-passive -->
+  <path d="M135,352 L660,112" fill="none" stroke="#16706B" stroke-width="3.4" stroke-linecap="round"/>
+  <!-- chronic hypertension, plateau shifted right -->
+  <path d="M240,352 L345,150 L660,150" fill="none" stroke="#C00000" stroke-width="3.4" stroke-dasharray="9 6" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- normal -->
+  <path d="M152,352 L240,140 L555,140 L640,100" fill="none" stroke="#1f3a5f" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- operating points at MAP 65 -->
+  <circle cx="257" cy="140" r="5.5" fill="#1f3a5f"/>
+  <circle cx="257" cy="319" r="5.5" fill="#C00000"/>
+
+  <!-- callouts -->
+  <text x="300" y="130" font-size="12.5" font-weight="700" fill="#1f3a5f">on the plateau: flow is defended</text>
+  <text x="272" y="312" font-size="12.5" font-weight="700" fill="#C00000">below the lower limit:</text>
+  <text x="272" y="328" font-size="12.5" font-weight="700" fill="#C00000">flow falls with pressure</text>
+  <text x="470" y="300" font-size="12.5" font-weight="700" fill="#16706B">no plateau: flow simply</text>
+  <text x="470" y="316" font-size="12.5" font-weight="700" fill="#16706B">follows pressure</text>
+  <line x1="528" y1="288" x2="545" y2="176" stroke="#16706B" stroke-width="1.2"/>
+
+  <!-- legend -->
+  <g font-size="12.5">
+    <line x1="112" y1="428" x2="146" y2="428" stroke="#1f3a5f" stroke-width="3.8"/>
+    <text x="154" y="432" fill="#3f4650">normal autoregulatory range</text>
+    <line x1="112" y1="452" x2="146" y2="452" stroke="#C00000" stroke-width="3.4" stroke-dasharray="9 6"/>
+    <text x="154" y="456" fill="#3f4650">long-standing hypertension: both limits shifted up</text>
+    <line x1="112" y1="476" x2="146" y2="476" stroke="#16706B" stroke-width="3.4"/>
+    <text x="154" y="480" fill="#3f4650">autoregulation lost, as in septic shock</text>
+  </g>
+</svg>

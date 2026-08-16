@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 372" width="660" height="372" role="img" aria-labelledby="i14z-title i14z-desc">
+  <title id="i14z-title">The normal right atrial pressure waveform, with the z point marked</title>
+  <desc id="i14z-desc">A right atrial or central venous pressure tracing drawn beneath a simultaneous electrocardiogram, with each landmark tied to a mechanical event. The a wave follows the P wave and is produced by atrial contraction. Between the a wave and the c wave the trace reaches a trough at the middle to the end of the QRS complex, and this trough is the z point, also called the base of the c wave. A dashed vertical line marks it, and an annotation states that right atrial and right ventricular pressures are equal at this instant, immediately before the tricuspid valve closes, which is why it is the point at which the pressure is read. The c wave follows as the closing tricuspid valve bulges into the atrium. The x descent follows as the atrium relaxes and the valve plane is pulled downwards during ventricular ejection. The v wave builds as the atrium fills against a closed tricuspid valve. The y descent follows tricuspid opening and early diastolic emptying. Ventricular systole is shaded from the QRS to the end of the T wave, and diastole from there to the next QRS.</desc>
+
+  <!-- Hand drawn for HemoSim I14, 2026-08-15. Deliberately a separate file from
+       img/n7-t2-ra-waveform-ecg.svg: Neal asked for the z point label to be
+       removed from the Novice figure, and the Informed module has to teach it,
+       so the two figures must not share a file. Landmark x positions are kept
+       identical to the Novice figure on purpose, so a learner moving between
+       the two pathways sees the same trace with one extra annotation.
+       A double hyphen is illegal inside an XML comment. -->
+
+  <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+
+    <rect x="0" y="0" width="660" height="372" fill="#ffffff"/>
+
+    <!-- cycle phase bands, drawn first so the traces sit on top -->
+    <rect x="168" y="24" width="140" height="228" fill="#eef2f7"/>
+    <rect x="308" y="24" width="170" height="228" fill="#dde5ee"/>
+    <text x="238" y="126" font-size="13" font-weight="700" fill="#4a5568" text-anchor="middle">Ventricular</text>
+    <text x="238" y="142" font-size="13" font-weight="700" fill="#4a5568" text-anchor="middle">systole</text>
+    <text x="393" y="134" font-size="13" font-weight="700" fill="#4a5568" text-anchor="middle">Diastole</text>
+
+    <!-- the z point line, behind the traces -->
+    <line x1="172" y1="24" x2="172" y2="266" stroke="#1c7c74" stroke-width="1.6" stroke-dasharray="5 4"/>
+
+    <!-- ECG -->
+    <text x="14" y="90" font-size="14" font-weight="700" fill="#1f3a5f">ECG</text>
+    <path d="M62 85 H112
+             Q121 66 130 85
+             H158 L163 92 L168 34 L175 98 L181 85
+             H244 Q264 64 284 85
+             H424 Q433 66 442 85
+             H468 L473 92 L478 34 L485 98 L491 85
+             H648"
+          fill="none" stroke="#1a1d21" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <text x="118" y="60" font-size="12.5" fill="#1a1d21">P</text>
+    <text x="180" y="34" font-size="12.5" fill="#1a1d21">R</text>
+    <text x="258" y="58" font-size="12.5" fill="#1a1d21">T</text>
+
+    <!-- right atrial pressure -->
+    <text x="14" y="216" font-size="14" font-weight="700" fill="#1f3a5f">RA</text>
+    <path d="M62 214
+             C 100 214, 116 178, 140 178
+             C 158 178, 160 204, 172 204
+             C 180 204, 182 190, 190 190
+             C 205 190, 212 224, 232 224
+             C 258 224, 262 184, 292 184
+             C 316 184, 322 222, 340 222
+             C 372 222, 392 214, 430 212
+             C 452 210, 456 178, 478 178
+             C 496 178, 498 204, 510 204
+             C 520 204, 524 192, 532 192
+             C 548 192, 556 224, 578 224
+             C 606 224, 620 214, 648 212"
+          fill="none" stroke="#c0392b" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- wave labels -->
+    <text x="134" y="168" font-size="13" font-weight="700" fill="#1a1d21">a</text>
+    <text x="188" y="180" font-size="13" font-weight="700" fill="#1a1d21">c</text>
+    <text x="226" y="242" font-size="13" font-weight="700" fill="#1a1d21">x</text>
+    <text x="288" y="174" font-size="13" font-weight="700" fill="#1a1d21">v</text>
+    <text x="336" y="242" font-size="13" font-weight="700" fill="#1a1d21">y</text>
+    <text x="472" y="168" font-size="13" font-weight="700" fill="#1a1d21">a</text>
+
+    <!-- z point marker and annotation -->
+    <circle cx="172" cy="204" r="5" fill="#1c7c74"/>
+    <text x="151" y="284" font-size="13.5" font-weight="700" fill="#1c7c74">z</text>
+    <text x="163" y="284" font-size="12.5" fill="#1c7c74">point, the base of the c wave</text>
+    <text x="151" y="300" font-size="12" fill="#5a626b">Middle to end of the QRS, immediately before the tricuspid valve closes.</text>
+    <text x="151" y="315" font-size="12" fill="#5a626b">Right atrial and right ventricular pressures are equal here, so this is the</text>
+    <text x="151" y="330" font-size="12" fill="#5a626b">right ventricular end-diastolic pressure and the point at which to read.</text>
+
+    <!-- footer legend -->
+    <text x="62" y="356" font-size="12" fill="#5a626b">a, atrial contraction &#183; c, the closing tricuspid valve bulging into the atrium &#183; x, atrial relaxation and</text>
+    <text x="62" y="368" font-size="12" fill="#5a626b">descent of the valve plane &#183; v, filling against a closed valve &#183; y, early diastolic emptying</text>
+  </g>
+</svg>

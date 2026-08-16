@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" width="700" height="400" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+  <rect width="700" height="400" fill="#ffffff"/>
+
+  <!-- ===================== LEFT PANEL: spontaneous inspiration ===================== -->
+  <text x="20" y="26" font-size="15" font-weight="700" fill="#1f3a5f">Spontaneous inspiration</text>
+  <text x="20" y="45" font-size="12.5" fill="#5a626b">pleural pressure falls</text>
+
+  <!-- thorax -->
+  <rect x="20" y="58" width="300" height="196" rx="14" fill="#f4f6f9" stroke="#1f3a5f" stroke-width="2"/>
+  <text x="30" y="76" font-size="11.5" fill="#5a626b">thorax</text>
+
+  <!-- outward arrows: chest wall expanding, pleural pressure negative -->
+  <g stroke="#006B96" stroke-width="2" fill="none">
+    <path d="M120 92 L86 78"/><path d="M220 92 L254 78"/>
+    <path d="M120 220 L86 236"/><path d="M220 220 L254 236"/>
+  </g>
+  <g fill="#006B96">
+    <path d="M86 78 l12 1 l-6 5 z"/><path d="M254 78 l-12 1 l6 5 z"/>
+    <path d="M86 236 l12 -1 l-6 -5 z"/><path d="M254 236 l-12 -1 l6 -5 z"/>
+  </g>
+  <text x="60" y="163" font-size="13" font-weight="700" fill="#006B96">P</text>
+  <text x="70" y="167" font-size="10" font-weight="700" fill="#006B96">pl</text>
+  <text x="60" y="181" font-size="13" font-weight="700" fill="#006B96">&#8722;8</text>
+
+  <!-- left ventricle -->
+  <path d="M170 100 C214 100 232 132 232 166 C232 204 206 228 170 228 C134 228 108 204 108 166 C108 132 126 100 170 100 Z" fill="#ffffff" stroke="#C00000" stroke-width="3"/>
+  <text x="170" y="152" font-size="15" font-weight="700" fill="#C00000" text-anchor="middle">LV</text>
+  <text x="170" y="176" font-size="12.5" fill="#1a1d21" text-anchor="middle">120 mmHg</text>
+  <text x="170" y="194" font-size="11" fill="#5a626b" text-anchor="middle">inside the chamber</text>
+
+  <!-- transmural arithmetic -->
+  <rect x="20" y="268" width="300" height="76" rx="8" fill="#ffffff" stroke="#e4e1db" stroke-width="1.5"/>
+  <text x="34" y="292" font-size="13.5" fill="#1a1d21">P</text>
+  <text x="42" y="296" font-size="10" fill="#1a1d21">TM</text>
+  <text x="62" y="292" font-size="13.5" fill="#1a1d21">= 120 &#8722; (&#8722;8) = </text>
+  <text x="180" y="292" font-size="15" font-weight="700" fill="#C00000">128 mmHg</text>
+  <text x="34" y="316" font-size="12.5" fill="#5a626b">wall stress is higher than the display</text>
+  <text x="34" y="334" font-size="13" font-weight="700" fill="#C00000">afterload rises</text>
+
+  <!-- divider -->
+  <line x1="350" y1="58" x2="350" y2="344" stroke="#e4e1db" stroke-width="2" stroke-dasharray="5 5"/>
+
+  <!-- ===================== RIGHT PANEL: positive pressure inspiration ===================== -->
+  <text x="380" y="26" font-size="15" font-weight="700" fill="#1f3a5f">Positive pressure inspiration</text>
+  <text x="380" y="45" font-size="12.5" fill="#5a626b">pleural pressure rises</text>
+
+  <rect x="380" y="58" width="300" height="196" rx="14" fill="#f4f6f9" stroke="#1f3a5f" stroke-width="2"/>
+  <text x="390" y="76" font-size="11.5" fill="#5a626b">thorax</text>
+
+  <!-- inward arrows: pleural pressure positive, squeezing the heart -->
+  <g stroke="#00753A" stroke-width="2" fill="none">
+    <path d="M446 78 L480 92"/><path d="M614 78 L580 92"/>
+    <path d="M446 236 L480 220"/><path d="M614 236 L580 220"/>
+  </g>
+  <g fill="#00753A">
+    <path d="M480 92 l-12 -1 l6 -5 z"/><path d="M580 92 l12 -1 l-6 -5 z"/>
+    <path d="M480 220 l-12 1 l6 5 z"/><path d="M580 220 l12 1 l-6 5 z"/>
+  </g>
+  <text x="418" y="163" font-size="13" font-weight="700" fill="#00753A">P</text>
+  <text x="428" y="167" font-size="10" font-weight="700" fill="#00753A">pl</text>
+  <text x="418" y="181" font-size="13" font-weight="700" fill="#00753A">+8</text>
+
+  <path d="M530 100 C574 100 592 132 592 166 C592 204 566 228 530 228 C494 228 468 204 468 166 C468 132 486 100 530 100 Z" fill="#ffffff" stroke="#C00000" stroke-width="3"/>
+  <text x="530" y="152" font-size="15" font-weight="700" fill="#C00000" text-anchor="middle">LV</text>
+  <text x="530" y="176" font-size="12.5" fill="#1a1d21" text-anchor="middle">120 mmHg</text>
+  <text x="530" y="194" font-size="11" fill="#5a626b" text-anchor="middle">inside the chamber</text>
+
+  <rect x="380" y="268" width="300" height="76" rx="8" fill="#ffffff" stroke="#e4e1db" stroke-width="1.5"/>
+  <text x="394" y="292" font-size="13.5" fill="#1a1d21">P</text>
+  <text x="402" y="296" font-size="10" fill="#1a1d21">TM</text>
+  <text x="422" y="292" font-size="13.5" fill="#1a1d21">= 120 &#8722; (+8) = </text>
+  <text x="532" y="292" font-size="15" font-weight="700" fill="#00753A">112 mmHg</text>
+  <text x="394" y="316" font-size="12.5" fill="#5a626b">wall stress is lower than the display</text>
+  <text x="394" y="334" font-size="13" font-weight="700" fill="#00753A">afterload falls</text>
+
+  <!-- footer -->
+  <text x="350" y="378" font-size="12.5" font-style="italic" fill="#5a626b" text-anchor="middle">The monitor reads 120 mmHg in both panels. The ventricle does not.</text>
+</svg>

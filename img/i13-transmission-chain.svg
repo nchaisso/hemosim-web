@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" width="760" height="470" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+  <rect width="760" height="470" fill="#ffffff"/>
+  <text x="380" y="24" text-anchor="middle" font-size="14.5" font-weight="700" fill="#1f3a5f">From the ventilator to the arterial trace: five links, and what breaks each one</text>
+
+  <!-- link boxes -->
+  <g font-size="12.5" fill="#1a1d21">
+    <rect x="24" y="46" width="712" height="42" rx="6" fill="#eef2f7" stroke="#c3cede"/>
+    <text x="40" y="64" font-weight="700" fill="#1f3a5f">1</text>
+    <text x="60" y="64" font-weight="700">The ventilator delivers a tidal volume</text>
+    <text x="60" y="80" fill="#5a626b">A cyclic, reproducible, machine-controlled stimulus of known size and timing</text>
+
+    <rect x="24" y="126" width="712" height="42" rx="6" fill="#eef2f7" stroke="#c3cede"/>
+    <text x="40" y="144" font-weight="700" fill="#1f3a5f">2</text>
+    <text x="60" y="144" font-weight="700">Some of that pressure reaches the pleural space</text>
+    <text x="60" y="160" fill="#5a626b">The fraction transmitted is set by lung stiffness relative to chest wall stiffness</text>
+
+    <rect x="24" y="206" width="712" height="42" rx="6" fill="#eef2f7" stroke="#c3cede"/>
+    <text x="40" y="224" font-weight="700" fill="#1f3a5f">3</text>
+    <text x="60" y="224" font-weight="700">Pleural pressure changes transmural pressure on the great veins and both ventricles</text>
+    <text x="60" y="240" fill="#5a626b">RV filling falls, RV afterload rises, and two to four beats later LV filling falls</text>
+
+    <rect x="24" y="286" width="712" height="42" rx="6" fill="#eef2f7" stroke="#c3cede"/>
+    <text x="40" y="304" font-weight="700" fill="#1f3a5f">4</text>
+    <text x="60" y="304" font-weight="700">Stroke volume swings, but only if the ventricles are on the steep limb</text>
+    <text x="60" y="320" fill="#5a626b">The size of the swing is the slope of the function curve at the operating point</text>
+
+    <rect x="24" y="366" width="712" height="42" rx="6" fill="#eef2f7" stroke="#c3cede"/>
+    <text x="40" y="384" font-weight="700" fill="#1f3a5f">5</text>
+    <text x="60" y="384" font-weight="700">The swing in stroke volume appears as a swing in pulse pressure</text>
+    <text x="60" y="400" fill="#5a626b">Requires stable arterial compliance across the cycle and a faithful pressure trace</text>
+  </g>
+
+  <!-- arrows -->
+  <g stroke="#1f3a5f" stroke-width="2" fill="none">
+    <path d="M120 88 L120 120"/><path d="M120 126 l-5 -8 l10 0 z" fill="#1f3a5f" stroke="none"/>
+    <path d="M120 168 L120 200"/><path d="M120 206 l-5 -8 l10 0 z" fill="#1f3a5f" stroke="none"/>
+    <path d="M120 248 L120 280"/><path d="M120 286 l-5 -8 l10 0 z" fill="#1f3a5f" stroke="none"/>
+    <path d="M120 328 L120 360"/><path d="M120 366 l-5 -8 l10 0 z" fill="#1f3a5f" stroke="none"/>
+  </g>
+
+  <!-- what breaks it -->
+  <g font-size="12" fill="#c0392b">
+    <text x="300" y="106" font-weight="700">Breaks:</text>
+    <text x="358" y="106" fill="#7a2b22">spontaneous effort, a triggered breath, an arrhythmia</text>
+    <text x="300" y="186" font-weight="700">Breaks:</text>
+    <text x="358" y="186" fill="#7a2b22">low tidal volume, stiff lung, open chest, tense abdomen</text>
+    <text x="300" y="266" font-weight="700">Breaks:</text>
+    <text x="358" y="266" fill="#7a2b22">too few beats per breath, right ventricular failure</text>
+    <text x="300" y="346" font-weight="700">Breaks:</text>
+    <text x="358" y="346" fill="#7a2b22">vasopressor or vasodilator moving the operating point</text>
+  </g>
+
+  <text x="380" y="440" text-anchor="middle" font-size="12.5" fill="#5a626b">Every condition that invalidates the measurement is a break in one of these links, not a separate rule.</text>
+  <text x="380" y="458" text-anchor="middle" font-size="12.5" fill="#5a626b">Naming the link tells you the direction of the error and which alternative test escapes it.</text>
+</svg>

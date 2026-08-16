@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 448" width="960" height="448" font-family="Georgia, serif">
+  <rect width="960" height="448" fill="#ffffff"/>
+
+  <defs>
+    <marker id="ar" markerWidth="9" markerHeight="9" refX="7" refY="3.2" orient="auto">
+      <path d="M0 0 L7 3.2 L0 6.4 z" fill="#8a5a10"/>
+    </marker>
+  </defs>
+
+  <!-- ===================== LEFT PANEL ===================== -->
+  <text x="20" y="26" font-size="16" font-weight="bold" fill="#1d2b3a">Adequate filling, modest airway pressure</text>
+  <rect x="20" y="38" width="400" height="336" fill="#fbfcfd" stroke="#d7dde3"/>
+
+  <rect x="52" y="72" width="136" height="38" fill="#f2dede"/>
+  <rect x="52" y="110" width="136" height="60" fill="#faf0d8"/>
+  <rect x="52" y="170" width="136" height="164" fill="#dfeee4"/>
+  <path d="M52 100 Q52 72 90 72 L150 72 Q188 72 188 104 L188 300 Q188 334 150 334 L90 334 Q52 334 52 300 Z"
+        fill="none" stroke="#39424b" stroke-width="2"/>
+  <line x1="52" y1="110" x2="188" y2="110" stroke="#39424b" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <line x1="52" y1="170" x2="188" y2="170" stroke="#39424b" stroke-width="1.2" stroke-dasharray="5 4"/>
+
+  <text x="206" y="94" font-size="14" font-weight="bold" fill="#8f1f1f">Zone 1</text>
+  <text x="206" y="111" font-size="12" fill="#39424b">P<tspan font-size="9" dy="3">A</tspan><tspan dy="-3"> &gt; P</tspan><tspan font-size="9" dy="3">a</tspan><tspan dy="-3"> &gt; P</tspan><tspan font-size="9" dy="3">v</tspan></text>
+  <text x="206" y="142" font-size="14" font-weight="bold" fill="#8a5a10">Zone 2</text>
+  <text x="206" y="159" font-size="12" fill="#39424b">P<tspan font-size="9" dy="3">a</tspan><tspan dy="-3"> &gt; P</tspan><tspan font-size="9" dy="3">A</tspan><tspan dy="-3"> &gt; P</tspan><tspan font-size="9" dy="3">v</tspan></text>
+  <text x="206" y="202" font-size="14" font-weight="bold" fill="#1e6b45">Zone 3</text>
+  <text x="206" y="219" font-size="12" fill="#39424b">P<tspan font-size="9" dy="3">a</tspan><tspan dy="-3"> &gt; P</tspan><tspan font-size="9" dy="3">v</tspan><tspan dy="-3"> &gt; P</tspan><tspan font-size="9" dy="3">A</tspan></text>
+  <text x="206" y="243" font-size="12" fill="#1e6b45">capillary stays open</text>
+  <text x="206" y="259" font-size="12" fill="#1e6b45">across the whole</text>
+  <text x="206" y="275" font-size="12" fill="#1e6b45">respiratory cycle</text>
+
+  <path d="M86 38 L86 150 Q86 200 108 232 L134 268" fill="none" stroke="#2f6f8f" stroke-width="3"/>
+  <circle cx="137" cy="272" r="6" fill="#2f6f8f"/>
+  <text x="60" y="300" font-size="12" font-weight="bold" fill="#2f6f8f">tip in zone 3</text>
+
+  <text x="34" y="352" font-size="12" fill="#1d2b3a">Uninterrupted column of blood to the left atrium.</text>
+  <text x="34" y="367" font-size="12" fill="#1d2b3a">The number is left atrial pressure.</text>
+
+  <!-- ===================== RIGHT PANEL ===================== -->
+  <text x="440" y="26" font-size="16" font-weight="bold" fill="#1d2b3a">Raised PEEP, hypovolaemia, or both</text>
+  <rect x="440" y="38" width="500" height="336" fill="#fbfcfd" stroke="#d7dde3"/>
+
+  <rect x="472" y="72" width="136" height="98" fill="#f2dede"/>
+  <rect x="472" y="170" width="136" height="130" fill="#faf0d8"/>
+  <rect x="472" y="300" width="136" height="34" fill="#dfeee4"/>
+  <path d="M472 100 Q472 72 510 72 L570 72 Q608 72 608 104 L608 300 Q608 334 570 334 L510 334 Q472 334 472 300 Z"
+        fill="none" stroke="#39424b" stroke-width="2"/>
+  <line x1="472" y1="170" x2="608" y2="170" stroke="#39424b" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <line x1="472" y1="300" x2="608" y2="300" stroke="#39424b" stroke-width="1.2" stroke-dasharray="5 4"/>
+
+  <line x1="624" y1="114" x2="624" y2="162" stroke="#8a5a10" stroke-width="2" marker-end="url(#ar)"/>
+  <line x1="624" y1="182" x2="624" y2="292" stroke="#8a5a10" stroke-width="2" marker-end="url(#ar)"/>
+
+  <text x="644" y="102" font-size="13" font-weight="bold" fill="#8a5a10">Both boundaries move down</text>
+  <text x="644" y="126" font-size="12" fill="#39424b">PEEP raises P<tspan font-size="9" dy="3">A</tspan><tspan dy="-3">.</tspan></text>
+  <text x="644" y="144" font-size="12" fill="#39424b">Volume loss lowers P<tspan font-size="9" dy="3">a</tspan><tspan dy="-3"> and P</tspan><tspan font-size="9" dy="3">v</tspan><tspan dy="-3">.</tspan></text>
+  <text x="644" y="176" font-size="12" fill="#39424b">Zone 3 retreats to the most</text>
+  <text x="644" y="192" font-size="12" fill="#39424b">dependent lung. A catheter tip</text>
+  <text x="644" y="208" font-size="12" fill="#39424b">that has not moved at all is</text>
+  <text x="644" y="224" font-size="12" fill="#39424b">now sitting in zone 2.</text>
+  <text x="644" y="252" font-size="12" fill="#8f1f1f">The capillary is pinched shut</text>
+  <text x="644" y="268" font-size="12" fill="#8f1f1f">for part of every breath.</text>
+
+  <path d="M498 38 L498 150 Q498 196 508 226 L516 262" fill="none" stroke="#8f1f1f" stroke-width="3"/>
+  <circle cx="518" cy="266" r="6" fill="#8f1f1f"/>
+  <text x="530" y="270" font-size="12" font-weight="bold" fill="#8f1f1f">tip in zone 2</text>
+
+  <text x="454" y="352" font-size="12" fill="#1d2b3a">Column interrupted by the collapsed capillary.</text>
+  <text x="454" y="367" font-size="12" fill="#1d2b3a">The number tracks alveolar pressure.</text>
+
+  <text x="20" y="406" font-size="13" fill="#39424b">The catheter does not have to migrate for a valid wedge to become invalid. Changing the pressures inside the lung is enough,</text>
+  <text x="20" y="426" font-size="13" fill="#39424b">which is why the two commonest bedside manoeuvres, raising PEEP and removing volume, are also the two commonest causes.</text>
+</svg>

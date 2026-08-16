@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 532 306" width="532" height="306" font-family="Georgia, serif">
+  <rect width="532" height="306" fill="#ffffff"/>
+  <defs>
+    <marker id="a1" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0 0 L7 3 L0 6 z" fill="#1c3557"/></marker>
+    <marker id="a2" markerWidth="8" markerHeight="8" refX="1" refY="3" orient="auto"><path d="M7 0 L0 3 L7 6 z" fill="#1c3557"/></marker>
+  </defs>
+  <text x="153" y="16" font-size="11.5" fill="#2b6cb0" font-weight="bold" text-anchor="end">R wave</text>
+  <text x="232" y="16" font-size="11.5" fill="#C00000" font-weight="bold">foot of the arterial upstroke</text>
+  <line x1="163" y1="22" x2="163" y2="258" stroke="#9aa3af" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="222" y1="22" x2="222" y2="258" stroke="#9aa3af" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="14" y="64" font-size="12" fill="#4a4f56">ECG</text>
+  <line x1="62" y1="60" x2="520" y2="60" stroke="#eef1f4" stroke-width="1"/>
+  <path d="M62 60 L105 60 Q116 49 127 60 L143 60 L150 67 L163 20 L174 75 L180 60 L197 60 Q213 44 229 60 L285 60 Q296 49 307 60 L323 60 L330 67 L343 20 L354 75 L360 60 L377 60 Q393 44 409 60 L520 60" fill="none" stroke="#2b6cb0" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="14" y="178" font-size="12" fill="#4a4f56">Arterial</text>
+  <text x="14" y="193" font-size="12" fill="#4a4f56">pressure</text>
+  <line x1="62" y1="232" x2="520" y2="232" stroke="#eef1f4" stroke-width="1"/>
+  <path d="M62 206 C142.0 224 198 231 222 232 C229 180 239 112 248 118 C260 134 262 160 268 168 C273 174 275 176 278 166 C284 160 284 158 292 164 C318 196 368 226 402 232 C409 180 419 112 428 118 C440 134 442 160 448 168 C453 174 455 176 458 166 C464 160 464 158 472 164 C498 196 486 226 520 224" fill="none" stroke="#C00000" stroke-width="2.2" stroke-linejoin="round"/>
+  <line x1="163" y1="252" x2="222" y2="252" stroke="#1c3557" stroke-width="1.8" marker-start="url(#a2)" marker-end="url(#a1)"/>
+  <text x="192" y="272" font-size="11.5" fill="#1c3557" text-anchor="middle" font-weight="bold">120 to 200 ms</text>
+  <rect x="248" y="248" width="272" height="52" rx="5" fill="#f4f6f9" stroke="#c7cdd6"/>
+  <text x="260" y="266" font-size="11.5" fill="#1c3557" font-weight="bold">Two components, in series:</text>
+  <text x="260" y="281" font-size="10.5" fill="#4a4f56">the pre-ejection period, roughly 55 ms, then the transit</text>
+  <text x="260" y="295" font-size="10.5" fill="#4a4f56">time of the pressure wave out to the catheter tip.</text>
+</svg>

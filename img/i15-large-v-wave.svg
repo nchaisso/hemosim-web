@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="900" height="320" font-family="Georgia, serif">
+  <rect width="900" height="320" fill="#ffffff"/>
+
+  <!-- ================= LEFT PANEL: pulmonary artery trace ================= -->
+  <text x="30" y="26" font-size="17" font-weight="bold" fill="#1d2b3a">Pulmonary artery trace</text>
+  <rect x="30" y="36" width="400" height="248" fill="#fbfcfd" stroke="#d7dde3"/>
+
+  <text x="40" y="56" font-size="11" fill="#7a848e">ECG</text>
+  <path d="M36 78 L44 78 Q52 66 60 78 L72 78 L76 84 L80 46 L84 88 L88 78 L100 78 Q112 62 124 78 L130 78
+           L144 78 Q152 66 160 78 L172 78 L176 84 L180 46 L184 88 L188 78 L200 78 Q212 62 224 78 L230 78
+           L244 78 Q252 66 260 78 L272 78 L276 84 L280 46 L284 88 L288 78 L300 78 Q312 62 324 78 L330 78
+           L344 78 Q352 66 360 78 L372 78 L376 84 L380 46 L384 88 L388 78 L400 78 Q412 62 424 78"
+        fill="none" stroke="#39424b" stroke-width="1.6"/>
+
+  <!-- peak timing marker, drawn behind the trace -->
+  <line x1="196" y1="90" x2="196" y2="150" stroke="#2f6f8f" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="202" y="106" font-size="12" fill="#2f6f8f">peak falls between</text>
+  <text x="202" y="120" font-size="12" fill="#2f6f8f">the QRS and the T wave</text>
+
+  <path d="M36 234
+           L80 234 C86 234 88 154 96 150 C104 146 110 164 118 182 L124 194 C126 182 130 180 133 190
+             C138 204 142 222 150 232
+           L180 234 C186 234 188 154 196 150 C204 146 210 164 218 182 L224 194 C226 182 230 180 233 190
+             C238 204 242 222 250 232
+           L280 234 C286 234 288 154 296 150 C304 146 310 164 318 182 L324 194 C326 182 330 180 333 190
+             C338 204 342 222 350 232
+           L380 234 C386 234 388 154 396 150 C404 146 410 164 418 182 L424 194"
+        fill="none" stroke="#8f1f1f" stroke-width="2.4"/>
+
+  <circle cx="224" cy="194" r="5" fill="none" stroke="#1d2b3a" stroke-width="1.4"/>
+  <line x1="229" y1="196" x2="252" y2="212" stroke="#1d2b3a" stroke-width="1"/>
+  <text x="255" y="216" font-size="12" fill="#1d2b3a">dicrotic notch</text>
+
+  <text x="44" y="262" font-size="12" fill="#1d2b3a">No a or v wave. Pressure is still falling</text>
+  <text x="44" y="277" font-size="12" fill="#1d2b3a">as the next QRS arrives.</text>
+
+  <!-- ================= RIGHT PANEL: wedge with a giant v wave ================= -->
+  <text x="470" y="26" font-size="17" font-weight="bold" fill="#1d2b3a">Wedge trace with a giant v wave</text>
+  <rect x="470" y="36" width="400" height="248" fill="#fbfcfd" stroke="#d7dde3"/>
+
+  <text x="480" y="56" font-size="11" fill="#7a848e">ECG</text>
+  <path d="M476 78 L484 78 Q492 66 500 78 L512 78 L516 84 L520 46 L524 88 L528 78 L540 78 Q552 62 564 78 L570 78
+           L584 78 Q592 66 600 78 L612 78 L616 84 L620 46 L624 88 L628 78 L640 78 Q652 62 664 78 L670 78
+           L684 78 Q692 66 700 78 L712 78 L716 84 L720 46 L724 88 L728 78 L740 78 Q752 62 764 78 L770 78
+           L784 78 Q792 66 800 78 L812 78 L816 84 L820 46 L824 88 L828 78 L840 78 Q852 62 864 78"
+        fill="none" stroke="#39424b" stroke-width="1.6"/>
+
+  <line x1="520" y1="90" x2="520" y2="196" stroke="#2f6f8f" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="588" y1="90" x2="588" y2="154" stroke="#8a5a10" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="478" y="106" font-size="12" fill="#2f6f8f">a wave, inside</text>
+  <text x="478" y="120" font-size="12" fill="#2f6f8f">the QRS</text>
+  <text x="600" y="106" font-size="12" fill="#8a5a10">v wave, peaking</text>
+  <text x="600" y="120" font-size="12" fill="#8a5a10">after the T wave</text>
+
+  <path d="M476 216
+           C492 214 506 198 522 194 C534 191 540 200 550 212 C558 222 562 218 568 202
+           C576 180 584 154 594 152 C604 150 610 168 618 194 C624 212 628 216 634 216
+           C646 214 662 198 674 194 C684 191 690 200 700 212 C708 222 712 218 718 202
+           C726 180 734 154 744 152 C754 150 760 168 768 194 C774 212 778 216 784 216
+           C796 214 812 198 824 194 C834 191 840 200 850 212 C858 222 862 218 866 206"
+        fill="none" stroke="#8f1f1f" stroke-width="2.4"/>
+
+  <circle cx="522" cy="194" r="4" fill="#2f6f8f"/>
+  <circle cx="594" cy="152" r="4" fill="#8a5a10"/>
+
+  <text x="484" y="262" font-size="12" fill="#1d2b3a">No dicrotic notch. Pressure is rising again</text>
+  <text x="484" y="277" font-size="12" fill="#1d2b3a">before the next QRS.</text>
+
+  <!-- ================= caption strip ================= -->
+  <text x="30" y="306" font-size="13" fill="#39424b">Similar amplitude, opposite meaning. The discriminator is where the peak falls against the electrocardiogram.</text>
+</svg>
