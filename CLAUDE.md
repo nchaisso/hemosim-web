@@ -14,7 +14,8 @@ The HTML pilot for the HemoSim hemodynamics curriculum. Static site: one page pe
 module (n1 through n8), plus topic subpages (n7-t1 through n7-t4), a shared
 style.css, two banner SVGs, and an img directory of extracted slide graphics.
 
-Target: hemosim.org. Deadline: September 1, 2026.
+Target: hemosim.org. No hard deadline: September 2026 was a soft target, per
+Neal on 2026-09-12.
 
 ## What this repo is not
 
