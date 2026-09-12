@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 395" width="700" height="395" role="img" aria-labelledby="t d">
+  <title id="t">What the wedge measures: a static column of blood from the balloon to the left atrium</title>
+  <desc id="d">A schematic of a pulmonary artery branch narrowing from left to right into arterioles, capillaries, venules and a pulmonary vein that enters the left atrium. A pulmonary artery catheter enters from the left with its balloon inflated in the branch, blocking forward flow. Beyond the balloon the column of blood is shaded as static, with no flow, all the way to the left atrium. Arrows travel backward along that column from the left atrium to the catheter tip, showing that pressure waves from the atrium reach the catheter through the motionless blood, and then continue up the fluid-filled catheter to the transducer.</desc>
+  <!-- Neal asked for the conceptual framework to be explained explicitly: the balloon stops flow, the static column acts as an extension of the catheter, and the transducer reads the left atrial pressure wave that travelled backward through it. -->
+  <rect width="700" height="395" fill="#ffffff"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="13" fill="#1a1d21">
+    <text x="70.0" y="30.0" font-size="11.5" fill="#1f3a5f" text-anchor="start" font-weight="bold">Pulmonary artery branch</text>
+    <text x="330.0" y="30.0" font-size="11.5" fill="#1f3a5f" text-anchor="middle" font-weight="bold">Capillaries</text>
+    <text x="590.0" y="30.0" font-size="11.5" fill="#1f3a5f" text-anchor="middle" font-weight="bold">Pulmonary vein</text>
+    <path d="M70 100 C 230 100, 280 140, 330 140 C 380 140, 430 100, 560 100 L 560 200 C 430 200, 380 160, 330 160 C 280 160, 230 200, 70 200 Z" fill="#fbe9e7" stroke="#c0392b" stroke-width="1.5"/>
+    <path d="M190 104 C 260 108, 290 143, 330 143 C 380 143, 430 104, 556 104 L 556 196 C 430 196, 380 157, 330 157 C 290 157, 260 192, 190 192 Z" fill="#dfe6ee"/>
+    <path d="M560 80 C 640 80, 660 110, 660 150 C 660 190, 640 220, 560 220 Z" fill="#f3d9d6" stroke="#c0392b" stroke-width="1.5"/>
+    <text x="612.0" y="155.0" font-size="12" fill="#1f3a5f" text-anchor="middle" font-weight="bold">Left atrium</text>
+    <rect x="40.0" y="143.0" width="150.0" height="14.0" fill="#f4f1ea" stroke="#5a626b" rx="3"/>
+    <ellipse cx="190" cy="150" rx="22" ry="44" fill="#fff8e1" stroke="#c9862b" stroke-width="2"/>
+    <text x="190.0" y="154.0" font-size="10.5" fill="#8a5a12" text-anchor="middle" font-weight="bold">balloon</text>
+    <text x="42.0" y="218.0" font-size="10.5" fill="#5a626b" text-anchor="start" font-weight="normal">catheter lumen, saline filled, to the transducer</text>
+    <path d="M90 120 L 130 120" stroke="#c0392b" stroke-width="2" marker-end="url(#a)"/>
+    <defs><marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#c0392b"/></marker><marker id="b" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#1f3a5f"/></marker></defs>
+    <text x="110.0" y="112.0" font-size="10.5" fill="#c0392b" text-anchor="middle" font-weight="normal">flow stops here</text>
+    <path d="M540 150 L 500 150" stroke="#1f3a5f" stroke-width="2" marker-end="url(#b)"/>
+    <path d="M470 150 L 430 150" stroke="#1f3a5f" stroke-width="2" marker-end="url(#b)"/>
+    <path d="M400 150 L 360 150" stroke="#1f3a5f" stroke-width="2" marker-end="url(#b)"/>
+    <path d="M330 150 L 290 150" stroke="#1f3a5f" stroke-width="2" marker-end="url(#b)"/>
+    <path d="M270 150 L 230 150" stroke="#1f3a5f" stroke-width="2" marker-end="url(#b)"/>
+    <text x="400.0" y="178.0" font-size="11" fill="#1f3a5f" text-anchor="middle" font-weight="bold">no flow: a static column of blood</text>
+    <text x="400.0" y="122.0" font-size="11" fill="#1f3a5f" text-anchor="middle" font-weight="normal">left atrial pressure waves travel backward through it</text>
+    <text x="70.0" y="250.0" font-size="11.5" fill="#4a5568" text-anchor="start" font-weight="normal">Inflating the balloon stops flow in that branch. Without flow there is no pressure drop along the</text>
+    <text x="70.0" y="265.0" font-size="11.5" fill="#4a5568" text-anchor="start" font-weight="normal">vessels beyond the tip, so the pressure at the tip equals the pressure where the column rejoins moving</text>
+    <text x="70.0" y="280.0" font-size="11.5" fill="#4a5568" text-anchor="start" font-weight="normal">blood, in the pulmonary veins at the left atrium.</text>
+    <text x="70.0" y="298.0" font-size="11.5" fill="#4a5568" text-anchor="start" font-weight="normal">The motionless blood behaves like an extension of the saline inside the catheter: each left atrial pulse</text>
+    <text x="70.0" y="313.0" font-size="11.5" fill="#4a5568" text-anchor="start" font-weight="normal">pushes on the column, the column pushes on the catheter fluid, and the transducer converts that movement</text>
+    <text x="70.0" y="328.0" font-size="11.5" fill="#4a5568" text-anchor="start" font-weight="normal">into the wedge tracing.</text>
+    <text x="70.0" y="346.0" font-size="11.5" fill="#4a5568" text-anchor="start" font-weight="normal">Anything that lets the column move, or squeezes it shut, breaks the chain: a leaking balloon, a tip</text>
+    <text x="70.0" y="361.0" font-size="11.5" fill="#4a5568" text-anchor="start" font-weight="normal">outside zone 3, or a flushed catheter.</text>
+    <text x="70.0" y="383.0" font-size="11" fill="#5a626b" text-anchor="start" font-weight="normal" font-style="italic">Right ventricle to the left, left atrium to the right. Not to scale.</text>
+  </g>
+</svg>

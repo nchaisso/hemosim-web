@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 384" width="700" height="384" role="img" aria-labelledby="t d">
+  <title id="t">Measuring oxygen consumption at the bedside by indirect calorimetry</title>
+  <desc id="d">A schematic of a ventilated patient in bed. The ventilator delivers gas through an inspiratory limb and receives it back through an expiratory limb. A metabolic cart sits in the circuit: a flow sensor and gas analysers measure inspired and expired oxygen and carbon dioxide breath by breath, and a display reports oxygen consumption, carbon dioxide production and the respiratory quotient. Notes list the conditions the measurement needs: a steady state of twenty to thirty minutes, no circuit leaks, an inspired oxygen fraction below about 0.6, and a calibrated analyser.</desc>
+  <!-- Drawn for the Topic 4 section on why direct Fick is the reference standard and why most bedside cardiac outputs skip it. -->
+  <rect width="700" height="384" fill="#ffffff"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="13" fill="#1a1d21">
+    <rect x="60.0" y="190.0" width="250.0" height="40.0" fill="#eef2f7" stroke="#5a626b" rx="4"/>
+    <circle cx="95" cy="178" r="16" fill="#f3d9d6" stroke="#5a626b" stroke-width="1.5"/>
+    <path d="M112 186 C 150 176, 220 178, 300 186 L 300 196 L 112 196 Z" fill="#f3d9d6" stroke="#5a626b" stroke-width="1.5"/>
+    <text x="185.0" y="250.0" font-size="11" fill="#5a626b" text-anchor="middle" font-weight="normal">patient, sedated and ventilated, at rest</text>
+    <rect x="400.0" y="150.0" width="110.0" height="80.0" fill="#ffffff" stroke="#1f3a5f" rx="6"/>
+    <text x="455.0" y="175.0" font-size="12" fill="#1f3a5f" text-anchor="middle" font-weight="bold">Ventilator</text>
+    <text x="455.0" y="195.0" font-size="11" fill="#5a626b" text-anchor="middle" font-weight="normal">FiO2 0.40</text>
+    <text x="455.0" y="212.0" font-size="11" fill="#5a626b" text-anchor="middle" font-weight="normal">no leaks</text>
+    <path d="M400 170 L 360 170 L 360 150 L 120 150 L 120 168" fill="none" stroke="#1f3a5f" stroke-width="3"/>
+    <path d="M108 168 L 108 120 L 250 120" fill="none" stroke="#c0392b" stroke-width="3"/>
+    <text x="240.0" y="164.0" font-size="10.5" fill="#1f3a5f" text-anchor="middle" font-weight="normal">inspiratory limb</text>
+    <text x="180.0" y="113.0" font-size="10.5" fill="#c0392b" text-anchor="middle" font-weight="normal">expiratory limb</text>
+    <rect x="250.0" y="90.0" width="120.0" height="60.0" fill="#ffffff" stroke="#16706B" rx="6"/>
+    <text x="310.0" y="110.0" font-size="12" fill="#16706B" text-anchor="middle" font-weight="bold">Metabolic cart</text>
+    <text x="310.0" y="126.0" font-size="10.5" fill="#5a626b" text-anchor="middle" font-weight="normal">flow sensor</text>
+    <text x="310.0" y="140.0" font-size="10.5" fill="#5a626b" text-anchor="middle" font-weight="normal">O2 and CO2 analysers</text>
+    <path d="M370 120 L 420 120 L 420 150" fill="none" stroke="#c0392b" stroke-width="3"/>
+    <rect x="540.0" y="70.0" width="130.0" height="100.0" fill="#1a1d21" stroke="#1a1d21" rx="6"/>
+    <text x="552.0" y="94.0" font-size="11.5" fill="#9be7c4" text-anchor="start" font-weight="bold">VO2   245 mL/min</text>
+    <text x="552.0" y="114.0" font-size="11.5" fill="#9be7c4" text-anchor="start" font-weight="bold">VCO2  201 mL/min</text>
+    <text x="552.0" y="134.0" font-size="11.5" fill="#9be7c4" text-anchor="start" font-weight="bold">RQ    0.82</text>
+    <text x="552.0" y="154.0" font-size="11.5" fill="#ffd27a" text-anchor="start" font-weight="bold">steady state 24 min</text>
+    <path d="M370 100 L 540 100" fill="none" stroke="#16706B" stroke-width="1.5" stroke-dasharray="4 3"/>
+    <text x="60.0" y="40.0" font-size="12" fill="#1f3a5f" text-anchor="start" font-weight="bold">VO2 = inspired oxygen per minute minus expired oxygen per minute, measured breath by breath at the airway</text>
+    <text x="60.0" y="58.0" font-size="11.5" fill="#4a5568" text-anchor="start" font-weight="normal">Cardiac output by direct Fick then follows from VO2 divided by the arteriovenous oxygen content difference.</text>
+    <text x="60.0" y="282.0" font-size="11.5" fill="#4a5568" text-anchor="start" font-weight="normal">Requirements: 15 to 30 minutes at a steady state with no change in ventilation or agitation, a leak-free</text>
+    <text x="60.0" y="297.0" font-size="11.5" fill="#4a5568" text-anchor="start" font-weight="normal">circuit (cuff, chest tubes, bronchopleural fistula), an FiO2 below about 0.6 so the small</text>
+    <text x="60.0" y="312.0" font-size="11.5" fill="#4a5568" text-anchor="start" font-weight="normal">inspired-to-expired oxygen difference is measurable, a warmed-up and calibrated analyser, and a trained</text>
+    <text x="60.0" y="327.0" font-size="11.5" fill="#4a5568" text-anchor="start" font-weight="normal">operator.</text>
+    <text x="60.0" y="345.0" font-size="11.5" fill="#4a5568" text-anchor="start" font-weight="normal">That cost, in time and equipment, is why most bedside Fick outputs estimate VO2 instead of measuring it,</text>
+    <text x="60.0" y="360.0" font-size="11.5" fill="#4a5568" text-anchor="start" font-weight="normal">and why the estimate is the weak link.</text>
+  </g>
+</svg>
