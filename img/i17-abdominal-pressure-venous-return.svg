@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 430" width="700" height="430" role="img" aria-labelledby="i17abd-title i17abd-desc">
+  <title id="i17abd-title">Two directions for the effect of intra-abdominal pressure on venous return</title>
+  <desc id="i17abd-desc">Two side by side schematics of the trunk, each showing the diaphragm separating the thorax above from the abdomen below, with the inferior vena cava running through both compartments into the right atrium. Panel A, a moderate increase in intra-abdominal pressure: the abdominal segment of the cava is compressed by modest inward arrows, mean systemic filling pressure rises more than right atrial pressure, and the panel concludes that venous return may increase. Panel B, an excessive increase in intra-abdominal pressure: larger inward arrows narrow the cava to a thin flow-limiting segment, external pressure approaches or exceeds intravascular pressure, and the panel concludes that venous return decreases.</desc>
+  <!-- Hand drawn for HemoSim I17, redrawn from a reviewer reference image to replace an external deck slide and to remove non-standard notation (P_RA, Pmsf), keeping RAP and Pms per site convention. -->
+  <rect width="700" height="430" fill="#ffffff"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+
+    <!-- Panel A -->
+    <g>
+      <rect x="14" y="14" width="326" height="30" fill="#eef2f7"/>
+      <text x="177" y="34" font-size="13" font-weight="700" fill="#1f3a5f" text-anchor="middle">A. Moderate increase in intra-abdominal pressure</text>
+      <text x="177" y="58" font-size="11.5" fill="#5a626b" text-anchor="middle">May augment venous return</text>
+
+      <line x1="30" y1="180" x2="324" y2="180" stroke="#8d949c" stroke-width="1.2" stroke-dasharray="5 4"/>
+      <text x="30" y="174" font-size="10.5" fill="#5a626b">Diaphragm</text>
+      <text x="30" y="150" font-size="11" fill="#5a626b">Thorax</text>
+      <text x="30" y="220" font-size="11" fill="#5a626b">Abdomen</text>
+
+      <!-- RA -->
+      <ellipse cx="177" cy="88" rx="34" ry="26" fill="#fbe9e7" stroke="#c0392b" stroke-width="1.6"/>
+      <text x="177" y="93" font-size="12.5" font-weight="700" fill="#c0392b" text-anchor="middle">RA</text>
+
+      <!-- IVC -->
+      <path d="M165,112 L165,300 Q165,314 177,314 Q189,314 189,300 L189,112 Z" fill="#dfe6ee" stroke="#1f3a5f" stroke-width="1.6"/>
+
+      <!-- compression arrows, moderate -->
+      <path d="M108,220 L160,220" stroke="#c0392b" stroke-width="2.2" marker-end="url(#arrA)"/>
+      <path d="M246,220 L194,220" stroke="#c0392b" stroke-width="2.2" marker-end="url(#arrA)"/>
+      <path d="M108,255 L160,255" stroke="#c0392b" stroke-width="2.2" marker-end="url(#arrA)"/>
+      <path d="M246,255 L194,255" stroke="#c0392b" stroke-width="2.2" marker-end="url(#arrA)"/>
+
+      <path d="M177,300 L177,330" stroke="#1f3a5f" stroke-width="2" marker-end="url(#arrUp)" transform="translate(0,-2)"/>
+      <path d="M177,330 L177,300" stroke="#1f3a5f" stroke-width="2" marker-end="url(#arrUp)"/>
+
+      <text x="272" y="92" font-size="11" fill="#1f3a5f" font-weight="700" text-anchor="start">RAP ↑</text>
+      <text x="30" y="240" font-size="11" fill="#c0392b" font-weight="700">Abdominal venous</text>
+      <text x="30" y="253" font-size="11" fill="#c0392b" font-weight="700">compression</text>
+      <text x="200" y="345" font-size="11" fill="#1f3a5f" font-weight="700" text-anchor="middle">Pms ↑</text>
+
+      <rect x="14" y="366" width="326" height="52" fill="#eef7ee"/>
+      <text x="177" y="386" font-size="11.5" fill="#256029" text-anchor="middle" font-weight="700">Pms rises more than RAP</text>
+      <text x="177" y="404" font-size="11.5" fill="#256029" text-anchor="middle" font-weight="700">→ venous return may increase</text>
+    </g>
+
+    <!-- Panel B -->
+    <g transform="translate(360,0)">
+      <rect x="14" y="14" width="326" height="30" fill="#fbe9e7"/>
+      <text x="177" y="34" font-size="13" font-weight="700" fill="#1f3a5f" text-anchor="middle">B. Excessive increase in intra-abdominal pressure</text>
+      <text x="177" y="58" font-size="11.5" fill="#5a626b" text-anchor="middle">Can limit venous return</text>
+
+      <line x1="30" y1="180" x2="324" y2="180" stroke="#8d949c" stroke-width="1.2" stroke-dasharray="5 4"/>
+      <text x="30" y="174" font-size="10.5" fill="#5a626b">Diaphragm</text>
+      <text x="30" y="150" font-size="11" fill="#5a626b">Thorax</text>
+      <text x="30" y="220" font-size="11" fill="#5a626b">Abdomen</text>
+
+      <ellipse cx="177" cy="88" rx="34" ry="26" fill="#fbe9e7" stroke="#c0392b" stroke-width="1.6"/>
+      <text x="177" y="93" font-size="12.5" font-weight="700" fill="#c0392b" text-anchor="middle">RA</text>
+
+      <path d="M165,112 L165,205 Q165,238 177,238 Q189,238 189,205 L189,112 Z M165,271 Q165,238 177,238 Q189,238 189,271 L189,300 Q189,314 177,314 Q165,314 165,300 Z" fill="#dfe6ee" stroke="#1f3a5f" stroke-width="1.6"/>
+
+      <!-- compression arrows, severe, converging on a narrow waist -->
+      <path d="M96,236 L166,238" stroke="#c0392b" stroke-width="2.6" marker-end="url(#arrA)"/>
+      <path d="M258,236 L188,238" stroke="#c0392b" stroke-width="2.6" marker-end="url(#arrA)"/>
+      <path d="M96,258 L166,240" stroke="#c0392b" stroke-width="2.6" marker-end="url(#arrA)"/>
+      <path d="M258,258 L188,240" stroke="#c0392b" stroke-width="2.6" marker-end="url(#arrA)"/>
+
+      <text x="272" y="92" font-size="11" fill="#1f3a5f" font-weight="700" text-anchor="start">RAP ↑</text>
+      <text x="30" y="248" font-size="11" fill="#c0392b" font-weight="700">External compression</text>
+      <text x="30" y="261" font-size="11" fill="#c0392b" font-weight="700">↓ transmural pressure</text>
+
+      <rect x="14" y="366" width="326" height="52" fill="#fdeeea"/>
+      <text x="177" y="386" font-size="11.5" fill="#963b2c" text-anchor="middle" font-weight="700">External pressure ≥ intravascular pressure</text>
+      <text x="177" y="404" font-size="11.5" fill="#963b2c" text-anchor="middle" font-weight="700">→ flow-limiting IVC, venous return decreases</text>
+    </g>
+
+    <defs>
+      <marker id="arrA" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#c0392b"/></marker>
+      <marker id="arrUp" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#1f3a5f"/></marker>
+    </defs>
+  </g>
+</svg>
