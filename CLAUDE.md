@@ -28,7 +28,9 @@ is needed, read it from Dropbox and bring the text here.
 
 MD and PhD level learners. Academic register, no hype, no simplification that
 sacrifices mechanistic accuracy. Content is layered by expertise: Novice,
-Informed learner, Expert. Depth is progressive, in onion layers, so a reader can
+Core, Expert. The middle tier was called "Informed" until 2026-09-13, when Neal
+renamed it "Core" for every visible label. File names (i1 to i17), CSS class
+names and the content repo's internal notes keep the old word. Depth is progressive, in onion layers, so a reader can
 stop at any level and still have a correct model.
 
 ## Pedagogical frame
