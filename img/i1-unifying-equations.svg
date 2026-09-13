@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 332" width="640" height="332" role="img" aria-labelledby="i1ue-title i1ue-desc">
+  <title id="i1ue-title">The four interface equations and the oxygen delivery equation, with cardiac output as the shared term</title>
+  <desc id="i1ue-desc">Five equations stacked and aligned on their equals signs. Interface I: MAP minus P crit equals CO times SVR. Interface II: P crit minus Pms equals CO times R capillary. Interface III: Pms minus RAP equals CO times Rv. Interface IV: PAPm minus LAP equals CO times PVR. Below a rule, the oxygen delivery equation: DO2 equals CO times CaO2. Cardiac output, CO, is printed in red in every line and the five red terms are joined by a vertical bracket labelled one shared term.</desc>
+
+  <!-- Hand drawn for HemoSim I1, 2026-09-13, replacing the deck raster
+       i1-unifying-equations.png, whose text used MSFP and PAP. The rows are the
+       four interface rows of the N4 table, one equation behind every interface,
+       plus the oxygen delivery equation the text goes on to discuss. -->
+
+  <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+
+    <rect x="0" y="0" width="640" height="332" fill="#ffffff"/>
+
+    <!-- interface labels, left column -->
+    <g font-size="12.5" fill="#5a626b">
+      <text x="24" y="54">Interface I</text>
+      <text x="24" y="100">Interface II</text>
+      <text x="24" y="146">Interface III</text>
+      <text x="24" y="192">Interface IV</text>
+      <text x="24" y="274">Oxygen delivery</text>
+    </g>
+
+    <!-- the equations. Left sides right-aligned to the equals sign at x=336,
+         right sides start at x=352. -->
+    <g font-size="22" fill="#1a1d21">
+      <text x="322" y="58" text-anchor="end">MAP &#8722; P<tspan font-size="14" dy="6">crit</tspan></text>
+      <text x="322" y="104" text-anchor="end">P<tspan font-size="14" dy="6">crit</tspan><tspan dy="-6"> &#8722; Pms</tspan></text>
+      <text x="322" y="150" text-anchor="end">Pms &#8722; RAP</text>
+      <text x="322" y="196" text-anchor="end">PAPm &#8722; LAP</text>
+      <text x="322" y="278" text-anchor="end">DO<tspan font-size="14" dy="6">2</tspan></text>
+
+      <g text-anchor="middle">
+        <text x="338" y="58">=</text>
+        <text x="338" y="104">=</text>
+        <text x="338" y="150">=</text>
+        <text x="338" y="196">=</text>
+        <text x="338" y="278">=</text>
+      </g>
+
+      <g font-weight="700" fill="#c0392b">
+        <text x="356" y="58">CO</text>
+        <text x="356" y="104">CO</text>
+        <text x="356" y="150">CO</text>
+        <text x="356" y="196">CO</text>
+        <text x="356" y="278">CO</text>
+      </g>
+
+      <text x="396" y="58">&#215; SVR</text>
+      <text x="396" y="104">&#215; R<tspan font-size="14" dy="6">capillary</tspan></text>
+      <text x="396" y="150">&#215; R<tspan font-size="14" dy="6">v</tspan></text>
+      <text x="396" y="196">&#215; PVR</text>
+      <text x="396" y="278">&#215; CaO<tspan font-size="14" dy="6">2</tspan></text>
+    </g>
+
+    <!-- rule separating the hydraulic equations from the delivery equation -->
+    <line x1="24" y1="228" x2="616" y2="228" stroke="#c9ced6" stroke-width="1.2"/>
+    <text x="24" y="246" font-size="12" fill="#5a626b">Same term, different equation: the purpose of the flow rather than its mechanics</text>
+
+    <!-- bracket joining the CO terms -->
+    <path d="M 392 40 H 388 V 286 H 392" fill="none" stroke="#c0392b" stroke-width="1.6" transform="translate(-40 0)"/>
+    <text x="330" y="310" font-size="13" font-weight="700" fill="#c0392b">CO, one shared term</text>
+    <text x="330" y="325" font-size="12" fill="#5a626b">numerically the same in every line in the steady state</text>
+  </g>
+</svg>
