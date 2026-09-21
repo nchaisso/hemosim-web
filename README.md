@@ -3,9 +3,9 @@
 Practical hemodynamics for clinicians who care for patients in shock.
 
 HemoSim is a modular, case-based curriculum in bedside hemodynamics. This
-repository holds the web pilot: a small static site with one page per module. It
-is a work in progress, shared so that colleagues can read it, test it against
-their own understanding, and tell us where it falls short.
+repository holds the web pilot. It is a work in progress, shared so that 
+colleagues can read it, test it against their own understanding, and tell 
+us where it falls short.
 
 > **Status: prototype.** The content is under active physician review and has
 > not been finalized. It is an educational resource, not medical advice, and it
@@ -17,8 +17,7 @@ HemoSim is written for healthcare providers and is pitched at the level of a
 physician: a resident, fellow, or attending who manages shock and wants a firmer
 physiologic footing. Medical students, physician assistants, and nurse
 practitioners should find it usable, although it is not written specifically for
-those groups. The register is academic. The material does not simplify where
-simplification would cost mechanistic accuracy.
+those groups. 
 
 ## How the curriculum is organized
 
@@ -75,14 +74,6 @@ intent is to flag it as such instead of asserting it. If you find a statement
 that is wrong, unsupported, or out of date, that is exactly the feedback this
 pilot exists to collect.
 
-## Terminology
-
-A few conventions are applied throughout, including inside figure captions:
-
-- **RAP** for right atrial pressure.
-- **Pms** for mean systemic filling pressure.
-- **Venous return curve** and **cardiac function curve** for the two curves of
-  the classic graphical analysis of the circulation.
 
 ## Viewing the site
 
@@ -111,9 +102,9 @@ either repository.
 
 ## How it was built
 
-The pages were drafted and assembled with the help of Claude, an AI assistant
-from Anthropic, working under physician direction. Every module then goes
-through line-by-line review by critical care physicians, and their edits are
+The pages were drafted and assembled from human written content with the help of Claude, an AI assistant
+from Anthropic.  The work was done under physician direction. Once drafted, every module goes
+through line-by-line review by the authors, and their edits are
 applied to the page. `CLAUDE.md` is the standing instruction file for that
 assistant. It is left in the repository for transparency about the process.
 
