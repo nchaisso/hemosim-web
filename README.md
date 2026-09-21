@@ -77,12 +77,13 @@ pilot exists to collect.
 
 ## Viewing the site
 
-There is no build step and no framework. The pages are hand-written HTML with
-one shared stylesheet.
+**Read it here: https://nchaisso.github.io/hemosim-web/**
 
-1. Download or clone the repository.
-2. Open `index.html` in any browser.
-3. Choose a level and read in order.
+Choose a level on the landing page and read the modules in order.
+
+There is no build step and no framework. The pages are hand-written HTML with
+one shared stylesheet, so the site also runs offline: download or clone the
+repository and open `index.html` in any browser.
 
 ## Repository layout
 
