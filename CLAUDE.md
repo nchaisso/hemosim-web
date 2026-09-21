@@ -17,6 +17,16 @@ style.css, two banner SVGs, and an img directory of extracted slide graphics.
 Target: hemosim.org. No hard deadline: September 2026 was a soft target, per
 Neal on 2026-09-12.
 
+## This repo is public and it is the live prototype
+
+Public on GitHub since 2026-09-21, and served by GitHub Pages from the root of
+`main` at https://nchaisso.github.io/hemosim-web/. Every push to `main` is
+visible to anyone at once and republishes the site within about a minute. Treat
+a push as publication. `README.md` is written for an outside reader who knows
+nothing about the project: it does not name the four source authorities, does
+not mention Dropbox, and credits "the HemoSim authors" without names. Neal edits
+it on GitHub at times, so pull before editing it.
+
 ## What this repo is not
 
 Not the content library. The source documents, extracted slide decks, PDFs of
