@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 332" width="640" height="332" role="img" aria-labelledby="i1ue-title i1ue-desc">
   <title id="i1ue-title">The four interface equations and the oxygen delivery equation, with cardiac output as the shared term</title>
-  <desc id="i1ue-desc">Five equations stacked and aligned on their equals signs. Interface I: MAP minus P crit equals CO times SVR. Interface II: P crit minus Pms equals CO times R capillary. Interface III: Pms minus RAP equals CO times Rv. Interface IV: PAPm minus LAP equals CO times PVR. Below a rule, the oxygen delivery equation: DO2 equals CO times CaO2. Cardiac output, CO, is printed in red in every line and the five red terms are joined by a vertical bracket labelled one shared term.</desc>
+  <desc id="i1ue-desc">Five equations stacked and aligned on their equals signs. Interface I: MAP minus P crit equals CO times SVR. Interface II: P crit minus Pms equals CO times R crit. Interface III: Pms minus RAP equals CO times Rv. Interface IV: PAPm minus LAP equals CO times PVR. Below a rule, the oxygen delivery equation: DO2 equals CO times CaO2. Cardiac output, CO, is printed in red in every line and the five red terms are joined by a vertical bracket labelled one shared term.</desc>
 
   <!-- Hand drawn for HemoSim I1, 2026-09-13, replacing the deck raster
        i1-unifying-equations.png, whose text used MSFP and PAP. The rows are the
@@ -46,7 +46,7 @@
       </g>
 
       <text x="396" y="58">&#215; SVR</text>
-      <text x="396" y="104">&#215; R<tspan font-size="14" dy="6">capillary</tspan></text>
+      <text x="396" y="104">&#215; R<tspan font-size="14" dy="6">crit</tspan></text>
       <text x="396" y="150">&#215; R<tspan font-size="14" dy="6">v</tspan></text>
       <text x="396" y="196">&#215; PVR</text>
       <text x="396" y="278">&#215; CaO<tspan font-size="14" dy="6">2</tspan></text>
